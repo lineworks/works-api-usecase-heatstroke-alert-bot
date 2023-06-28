@@ -1,0 +1,5048 @@
+[
+    {
+        "point_id": "11001",
+        "point_key": "soyamisaki",
+        "pref_key": "soya",
+        "point_name_ja": "宗谷岬"
+    },
+    {
+        "point_id": "11016",
+        "point_key": "wakkanai",
+        "pref_key": "soya",
+        "point_name_ja": "稚内"
+    },
+    {
+        "point_id": "11046",
+        "point_key": "rebun",
+        "pref_key": "soya",
+        "point_name_ja": "礼文"
+    },
+    {
+        "point_id": "11076",
+        "point_key": "hamaonishibetsu",
+        "pref_key": "soya",
+        "point_name_ja": "浜鬼志別"
+    },
+    {
+        "point_id": "11121",
+        "point_key": "numakawa",
+        "pref_key": "soya",
+        "point_name_ja": "沼川"
+    },
+    {
+        "point_id": "11151",
+        "point_key": "kutsugata",
+        "pref_key": "soya",
+        "point_name_ja": "沓形"
+    },
+    {
+        "point_id": "11176",
+        "point_key": "toyotomi",
+        "pref_key": "soya",
+        "point_name_ja": "豊富"
+    },
+    {
+        "point_id": "11206",
+        "point_key": "hamatombetsu",
+        "pref_key": "soya",
+        "point_name_ja": "浜頓別"
+    },
+    {
+        "point_id": "11276",
+        "point_key": "nakatombetsu",
+        "pref_key": "soya",
+        "point_name_ja": "中頓別"
+    },
+    {
+        "point_id": "11291",
+        "point_key": "kitami-esashi",
+        "pref_key": "soya",
+        "point_name_ja": "北見枝幸"
+    },
+    {
+        "point_id": "11316",
+        "point_key": "utanobori",
+        "pref_key": "soya",
+        "point_name_ja": "歌登"
+    },
+    {
+        "point_id": "12011",
+        "point_key": "nakagawa",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "中川"
+    },
+    {
+        "point_id": "12041",
+        "point_key": "otoineppu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "音威子府"
+    },
+    {
+        "point_id": "12141",
+        "point_key": "bifuka",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "美深"
+    },
+    {
+        "point_id": "12181",
+        "point_key": "nayoro",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "名寄"
+    },
+    {
+        "point_id": "12231",
+        "point_key": "shimokawa",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "下川"
+    },
+    {
+        "point_id": "12261",
+        "point_key": "shibetsu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "士別"
+    },
+    {
+        "point_id": "12266",
+        "point_key": "asahi",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "朝日"
+    },
+    {
+        "point_id": "12301",
+        "point_key": "wassamu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "和寒"
+    },
+    {
+        "point_id": "12386",
+        "point_key": "etambetsu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "江丹別"
+    },
+    {
+        "point_id": "12396",
+        "point_key": "pippu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "比布"
+    },
+    {
+        "point_id": "12411",
+        "point_key": "kamikawa",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "上川"
+    },
+    {
+        "point_id": "12442",
+        "point_key": "asahikawa",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "旭川"
+    },
+    {
+        "point_id": "12451",
+        "point_key": "higashikawa",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "東川"
+    },
+    {
+        "point_id": "12512",
+        "point_key": "shibinai",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "志比内"
+    },
+    {
+        "point_id": "12551",
+        "point_key": "biei",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "美瑛"
+    },
+    {
+        "point_id": "12596",
+        "point_key": "kamifurano",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "上富良野"
+    },
+    {
+        "point_id": "12626",
+        "point_key": "furano",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "富良野"
+    },
+    {
+        "point_id": "12632",
+        "point_key": "rokugo",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "麓郷"
+    },
+    {
+        "point_id": "12691",
+        "point_key": "ikutora",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "幾寅"
+    },
+    {
+        "point_id": "12746",
+        "point_key": "shimukappu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "占冠"
+    },
+    {
+        "point_id": "15041",
+        "point_key": "shumarinai",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "朱鞠内"
+    },
+    {
+        "point_id": "15076",
+        "point_key": "horokanai",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "幌加内"
+    },
+    {
+        "point_id": "13061",
+        "point_key": "teshio",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "天塩"
+    },
+    {
+        "point_id": "13086",
+        "point_key": "embetsu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "遠別"
+    },
+    {
+        "point_id": "13121",
+        "point_key": "shosambetsu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "初山別"
+    },
+    {
+        "point_id": "13146",
+        "point_key": "yagishiri",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "焼尻"
+    },
+    {
+        "point_id": "13181",
+        "point_key": "haboro",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "羽幌"
+    },
+    {
+        "point_id": "13261",
+        "point_key": "tappu",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "達布"
+    },
+    {
+        "point_id": "13277",
+        "point_key": "rumoi",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "留萌"
+    },
+    {
+        "point_id": "13311",
+        "point_key": "mashike",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "増毛"
+    },
+    {
+        "point_id": "13321",
+        "point_key": "horonuka",
+        "pref_key": "kamikawa-rumoi",
+        "point_name_ja": "幌糠"
+    },
+    {
+        "point_id": "14026",
+        "point_key": "hamamasu",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "浜益"
+    },
+    {
+        "point_id": "14071",
+        "point_key": "atsuta",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "厚田"
+    },
+    {
+        "point_id": "14101",
+        "point_key": "shinshinotsu",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "新篠津"
+    },
+    {
+        "point_id": "14116",
+        "point_key": "yamaguchi",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "山口"
+    },
+    {
+        "point_id": "14121",
+        "point_key": "ishikari",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "石狩"
+    },
+    {
+        "point_id": "14136",
+        "point_key": "ebetsu",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "江別"
+    },
+    {
+        "point_id": "14163",
+        "point_key": "sapporo",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "札幌"
+    },
+    {
+        "point_id": "14206",
+        "point_key": "eniwashimamatsu",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "恵庭島松"
+    },
+    {
+        "point_id": "14286",
+        "point_key": "shikotsukohan",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "支笏湖畔"
+    },
+    {
+        "point_id": "15116",
+        "point_key": "ishikarinumata",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "石狩沼田"
+    },
+    {
+        "point_id": "15156",
+        "point_key": "chippubetsu",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "秩父別"
+    },
+    {
+        "point_id": "15161",
+        "point_key": "fukagawa",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "深川"
+    },
+    {
+        "point_id": "15231",
+        "point_key": "sorachiyoshino",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "空知吉野"
+    },
+    {
+        "point_id": "15241",
+        "point_key": "takikawa",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "滝川"
+    },
+    {
+        "point_id": "15251",
+        "point_key": "ashibetsu",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "芦別"
+    },
+    {
+        "point_id": "15311",
+        "point_key": "tsukigata",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "月形"
+    },
+    {
+        "point_id": "15321",
+        "point_key": "bibai",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "美唄"
+    },
+    {
+        "point_id": "15356",
+        "point_key": "iwamizawa",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "岩見沢"
+    },
+    {
+        "point_id": "15431",
+        "point_key": "naganuma",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "長沼"
+    },
+    {
+        "point_id": "15442",
+        "point_key": "yubari",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "夕張"
+    },
+    {
+        "point_id": "16026",
+        "point_key": "bikuni",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "美国"
+    },
+    {
+        "point_id": "16061",
+        "point_key": "kamoenai",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "神恵内"
+    },
+    {
+        "point_id": "16076",
+        "point_key": "yoichi",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "余市"
+    },
+    {
+        "point_id": "16091",
+        "point_key": "otaru",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "小樽"
+    },
+    {
+        "point_id": "16156",
+        "point_key": "kyowa",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "共和"
+    },
+    {
+        "point_id": "16206",
+        "point_key": "rankoshi",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "蘭越"
+    },
+    {
+        "point_id": "16217",
+        "point_key": "kutchan",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "倶知安"
+    },
+    {
+        "point_id": "16252",
+        "point_key": "suttsu",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "寿都"
+    },
+    {
+        "point_id": "16281",
+        "point_key": "makkari",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "真狩"
+    },
+    {
+        "point_id": "16286",
+        "point_key": "kimobetsu",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "喜茂別"
+    },
+    {
+        "point_id": "16321",
+        "point_key": "kuromatsunai",
+        "pref_key": "ishikari-sorachi-shiribeshi",
+        "point_name_ja": "黒松内"
+    },
+    {
+        "point_id": "17036",
+        "point_key": "omu",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "雄武"
+    },
+    {
+        "point_id": "17076",
+        "point_key": "okoppe",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "興部"
+    },
+    {
+        "point_id": "17091",
+        "point_key": "nishi-okoppe",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "西興部"
+    },
+    {
+        "point_id": "17112",
+        "point_key": "mombetsu",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "紋別"
+    },
+    {
+        "point_id": "17166",
+        "point_key": "yubetsu",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "湧別"
+    },
+    {
+        "point_id": "17196",
+        "point_key": "takinoue",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "滝上"
+    },
+    {
+        "point_id": "17246",
+        "point_key": "tokoro",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "常呂"
+    },
+    {
+        "point_id": "17306",
+        "point_key": "engaru",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "遠軽"
+    },
+    {
+        "point_id": "17316",
+        "point_key": "saroma",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "佐呂間"
+    },
+    {
+        "point_id": "17341",
+        "point_key": "abashiri",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "網走"
+    },
+    {
+        "point_id": "17351",
+        "point_key": "utoro",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "宇登呂"
+    },
+    {
+        "point_id": "17482",
+        "point_key": "shirataki",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "白滝"
+    },
+    {
+        "point_id": "17501",
+        "point_key": "ikutahara",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "生田原"
+    },
+    {
+        "point_id": "17521",
+        "point_key": "kitami",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "北見"
+    },
+    {
+        "point_id": "17546",
+        "point_key": "koshimizu",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "小清水"
+    },
+    {
+        "point_id": "17561",
+        "point_key": "shari",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "斜里"
+    },
+    {
+        "point_id": "17596",
+        "point_key": "rubeshibe",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "留辺蘂"
+    },
+    {
+        "point_id": "17607",
+        "point_key": "sakaino",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "境野"
+    },
+    {
+        "point_id": "17631",
+        "point_key": "bihoro",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "美幌"
+    },
+    {
+        "point_id": "17717",
+        "point_key": "tsubetsu",
+        "pref_key": "abashiri-kitami-mombetsu",
+        "point_name_ja": "津別"
+    },
+    {
+        "point_id": "18038",
+        "point_key": "rausu",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "羅臼"
+    },
+    {
+        "point_id": "18136",
+        "point_key": "shibetsu",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "標津"
+    },
+    {
+        "point_id": "18161",
+        "point_key": "kamishibetsu",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "上標津"
+    },
+    {
+        "point_id": "18171",
+        "point_key": "nakashibetsu",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "中標津"
+    },
+    {
+        "point_id": "18256",
+        "point_key": "betsukai",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "別海"
+    },
+    {
+        "point_id": "18273",
+        "point_key": "nemuro",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "根室"
+    },
+    {
+        "point_id": "18281",
+        "point_key": "nosappu",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "納沙布"
+    },
+    {
+        "point_id": "18311",
+        "point_key": "attoko",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "厚床"
+    },
+    {
+        "point_id": "19021",
+        "point_key": "kawayu",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "川湯"
+    },
+    {
+        "point_id": "19051",
+        "point_key": "teshikaga",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "弟子屈"
+    },
+    {
+        "point_id": "19076",
+        "point_key": "akankohan",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "阿寒湖畔"
+    },
+    {
+        "point_id": "19151",
+        "point_key": "shibecha",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "標茶"
+    },
+    {
+        "point_id": "19191",
+        "point_key": "tsurui",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "鶴居"
+    },
+    {
+        "point_id": "19261",
+        "point_key": "nakateshibetsu",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "中徹別"
+    },
+    {
+        "point_id": "19311",
+        "point_key": "sakakimachi",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "榊町"
+    },
+    {
+        "point_id": "19376",
+        "point_key": "ota",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "太田"
+    },
+    {
+        "point_id": "19416",
+        "point_key": "shiranuka",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "白糠"
+    },
+    {
+        "point_id": "19432",
+        "point_key": "kushiro",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "釧路"
+    },
+    {
+        "point_id": "19451",
+        "point_key": "chippomanai",
+        "pref_key": "kushiro-nemuro",
+        "point_name_ja": "知方学"
+    },
+    {
+        "point_id": "20146",
+        "point_key": "rikubetsu",
+        "pref_key": "tokachi",
+        "point_name_ja": "陸別"
+    },
+    {
+        "point_id": "20186",
+        "point_key": "nukabira-gensenkyo",
+        "pref_key": "tokachi",
+        "point_name_ja": "ぬかびら源泉郷"
+    },
+    {
+        "point_id": "20266",
+        "point_key": "kamishihoro",
+        "pref_key": "tokachi",
+        "point_name_ja": "上士幌"
+    },
+    {
+        "point_id": "20276",
+        "point_key": "ashoro",
+        "pref_key": "tokachi",
+        "point_name_ja": "足寄"
+    },
+    {
+        "point_id": "20341",
+        "point_key": "hombetsu",
+        "pref_key": "tokachi",
+        "point_name_ja": "本別"
+    },
+    {
+        "point_id": "20356",
+        "point_key": "shintoku",
+        "pref_key": "tokachi",
+        "point_name_ja": "新得"
+    },
+    {
+        "point_id": "20361",
+        "point_key": "shikaoi",
+        "pref_key": "tokachi",
+        "point_name_ja": "鹿追"
+    },
+    {
+        "point_id": "20371",
+        "point_key": "komaba",
+        "pref_key": "tokachi",
+        "point_name_ja": "駒場"
+    },
+    {
+        "point_id": "20421",
+        "point_key": "memuro",
+        "pref_key": "tokachi",
+        "point_name_ja": "芽室"
+    },
+    {
+        "point_id": "20432",
+        "point_key": "obihiro",
+        "pref_key": "tokachi",
+        "point_name_ja": "帯広"
+    },
+    {
+        "point_id": "20441",
+        "point_key": "ikeda",
+        "pref_key": "tokachi",
+        "point_name_ja": "池田"
+    },
+    {
+        "point_id": "20506",
+        "point_key": "urahoro",
+        "pref_key": "tokachi",
+        "point_name_ja": "浦幌"
+    },
+    {
+        "point_id": "20556",
+        "point_key": "nukanai",
+        "pref_key": "tokachi",
+        "point_name_ja": "糠内"
+    },
+    {
+        "point_id": "20601",
+        "point_key": "kamisatsunai",
+        "pref_key": "tokachi",
+        "point_name_ja": "上札内"
+    },
+    {
+        "point_id": "20606",
+        "point_key": "sarabetsu",
+        "pref_key": "tokachi",
+        "point_name_ja": "更別"
+    },
+    {
+        "point_id": "20631",
+        "point_key": "otsu",
+        "pref_key": "tokachi",
+        "point_name_ja": "大津"
+    },
+    {
+        "point_id": "20696",
+        "point_key": "taiki",
+        "pref_key": "tokachi",
+        "point_name_ja": "大樹"
+    },
+    {
+        "point_id": "20751",
+        "point_key": "hiro-o",
+        "pref_key": "tokachi",
+        "point_name_ja": "広尾"
+    },
+    {
+        "point_id": "21111",
+        "point_key": "atsuma",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "厚真"
+    },
+    {
+        "point_id": "21126",
+        "point_key": "hobetsu",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "穂別"
+    },
+    {
+        "point_id": "21161",
+        "point_key": "otaki",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "大滝"
+    },
+    {
+        "point_id": "21171",
+        "point_key": "morino",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "森野"
+    },
+    {
+        "point_id": "21187",
+        "point_key": "tomakomai",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "苫小牧"
+    },
+    {
+        "point_id": "21226",
+        "point_key": "okishi",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "大岸"
+    },
+    {
+        "point_id": "21261",
+        "point_key": "shiraoi",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "白老"
+    },
+    {
+        "point_id": "21276",
+        "point_key": "mukawa",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "鵡川"
+    },
+    {
+        "point_id": "21297",
+        "point_key": "date",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "伊達"
+    },
+    {
+        "point_id": "21312",
+        "point_key": "noboribetsu",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "登別"
+    },
+    {
+        "point_id": "21323",
+        "point_key": "muroran",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "室蘭"
+    },
+    {
+        "point_id": "22036",
+        "point_key": "hidaka",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "日高"
+    },
+    {
+        "point_id": "22141",
+        "point_key": "hidaka-mombetsu",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "日高門別"
+    },
+    {
+        "point_id": "22156",
+        "point_key": "shinwa",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "新和"
+    },
+    {
+        "point_id": "22241",
+        "point_key": "shizunai",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "静内"
+    },
+    {
+        "point_id": "22291",
+        "point_key": "mitsuishi",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "三石"
+    },
+    {
+        "point_id": "22306",
+        "point_key": "nakakineusu",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "中杵臼"
+    },
+    {
+        "point_id": "22327",
+        "point_key": "urakawa",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "浦河"
+    },
+    {
+        "point_id": "22391",
+        "point_key": "erimomisaki",
+        "pref_key": "iburi-hidaka",
+        "point_name_ja": "えりも岬"
+    },
+    {
+        "point_id": "23031",
+        "point_key": "oshamambe",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "長万部"
+    },
+    {
+        "point_id": "23086",
+        "point_key": "yakumo",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "八雲"
+    },
+    {
+        "point_id": "23166",
+        "point_key": "mori",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "森"
+    },
+    {
+        "point_id": "23206",
+        "point_key": "kakkumi",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "川汲"
+    },
+    {
+        "point_id": "23226",
+        "point_key": "hokuto",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "北斗"
+    },
+    {
+        "point_id": "23232",
+        "point_key": "hakodate",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "函館"
+    },
+    {
+        "point_id": "23326",
+        "point_key": "kikonai",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "木古内"
+    },
+    {
+        "point_id": "23376",
+        "point_key": "matsumae",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "松前"
+    },
+    {
+        "point_id": "24141",
+        "point_key": "kumaishi",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "熊石"
+    },
+    {
+        "point_id": "24041",
+        "point_key": "setana",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "せたな"
+    },
+    {
+        "point_id": "24051",
+        "point_key": "imakane",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "今金"
+    },
+    {
+        "point_id": "24101",
+        "point_key": "okushiri",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "奥尻"
+    },
+    {
+        "point_id": "24201",
+        "point_key": "uzura",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "鶉"
+    },
+    {
+        "point_id": "24217",
+        "point_key": "esashi",
+        "pref_key": "oshima-hiyama",
+        "point_name_ja": "江差"
+    },
+    {
+        "point_id": "31001",
+        "point_key": "oma",
+        "pref_key": "aomori",
+        "point_name_ja": "大間"
+    },
+    {
+        "point_id": "31111",
+        "point_key": "mutsu",
+        "pref_key": "aomori",
+        "point_name_ja": "むつ"
+    },
+    {
+        "point_id": "31121",
+        "point_key": "odanosawa",
+        "pref_key": "aomori",
+        "point_name_ja": "小田野沢"
+    },
+    {
+        "point_id": "31136",
+        "point_key": "imabetsu",
+        "pref_key": "aomori",
+        "point_name_ja": "今別"
+    },
+    {
+        "point_id": "31156",
+        "point_key": "wakinosawa",
+        "pref_key": "aomori",
+        "point_name_ja": "脇野沢"
+    },
+    {
+        "point_id": "31186",
+        "point_key": "shiura",
+        "pref_key": "aomori",
+        "point_name_ja": "市浦"
+    },
+    {
+        "point_id": "31201",
+        "point_key": "kanita",
+        "pref_key": "aomori",
+        "point_name_ja": "蟹田"
+    },
+    {
+        "point_id": "31296",
+        "point_key": "goshogawara",
+        "pref_key": "aomori",
+        "point_name_ja": "五所川原"
+    },
+    {
+        "point_id": "31312",
+        "point_key": "aomori",
+        "pref_key": "aomori",
+        "point_name_ja": "青森"
+    },
+    {
+        "point_id": "31332",
+        "point_key": "noheji",
+        "pref_key": "aomori",
+        "point_name_ja": "野辺地"
+    },
+    {
+        "point_id": "31336",
+        "point_key": "rokkasho",
+        "pref_key": "aomori",
+        "point_name_ja": "六ケ所"
+    },
+    {
+        "point_id": "31366",
+        "point_key": "ajigasawa",
+        "pref_key": "aomori",
+        "point_name_ja": "鰺ケ沢"
+    },
+    {
+        "point_id": "31436",
+        "point_key": "fukaura",
+        "pref_key": "aomori",
+        "point_name_ja": "深浦"
+    },
+    {
+        "point_id": "31461",
+        "point_key": "hirosaki",
+        "pref_key": "aomori",
+        "point_name_ja": "弘前"
+    },
+    {
+        "point_id": "31466",
+        "point_key": "kuroishi",
+        "pref_key": "aomori",
+        "point_name_ja": "黒石"
+    },
+    {
+        "point_id": "31482",
+        "point_key": "sukayu",
+        "pref_key": "aomori",
+        "point_name_ja": "酸ケ湯"
+    },
+    {
+        "point_id": "31506",
+        "point_key": "misawa",
+        "pref_key": "aomori",
+        "point_name_ja": "三沢"
+    },
+    {
+        "point_id": "31586",
+        "point_key": "towada",
+        "pref_key": "aomori",
+        "point_name_ja": "十和田"
+    },
+    {
+        "point_id": "31602",
+        "point_key": "hachinohe",
+        "pref_key": "aomori",
+        "point_name_ja": "八戸"
+    },
+    {
+        "point_id": "31646",
+        "point_key": "ikarigaseki",
+        "pref_key": "aomori",
+        "point_name_ja": "碇ケ関"
+    },
+    {
+        "point_id": "31662",
+        "point_key": "yasumiya",
+        "pref_key": "aomori",
+        "point_name_ja": "休屋"
+    },
+    {
+        "point_id": "31721",
+        "point_key": "sannohe",
+        "pref_key": "aomori",
+        "point_name_ja": "三戸"
+    },
+    {
+        "point_id": "32056",
+        "point_key": "hachimori",
+        "pref_key": "akita",
+        "point_name_ja": "八森"
+    },
+    {
+        "point_id": "32111",
+        "point_key": "noshiro",
+        "pref_key": "akita",
+        "point_name_ja": "能代"
+    },
+    {
+        "point_id": "32126",
+        "point_key": "takanosu",
+        "pref_key": "akita",
+        "point_name_ja": "鷹巣"
+    },
+    {
+        "point_id": "32136",
+        "point_key": "odate",
+        "pref_key": "akita",
+        "point_name_ja": "大館"
+    },
+    {
+        "point_id": "32146",
+        "point_key": "kazuno",
+        "pref_key": "akita",
+        "point_name_ja": "鹿角"
+    },
+    {
+        "point_id": "32206",
+        "point_key": "yuze",
+        "pref_key": "akita",
+        "point_name_ja": "湯瀬"
+    },
+    {
+        "point_id": "32266",
+        "point_key": "hachimantai",
+        "pref_key": "akita",
+        "point_name_ja": "八幡平"
+    },
+    {
+        "point_id": "32286",
+        "point_key": "oga",
+        "pref_key": "akita",
+        "point_name_ja": "男鹿"
+    },
+    {
+        "point_id": "32287",
+        "point_key": "ogata",
+        "pref_key": "akita",
+        "point_name_ja": "大潟"
+    },
+    {
+        "point_id": "32296",
+        "point_key": "gojome",
+        "pref_key": "akita",
+        "point_name_ja": "五城目"
+    },
+    {
+        "point_id": "32311",
+        "point_key": "aniai",
+        "pref_key": "akita",
+        "point_name_ja": "阿仁合"
+    },
+    {
+        "point_id": "32402",
+        "point_key": "akita",
+        "pref_key": "akita",
+        "point_name_ja": "秋田"
+    },
+    {
+        "point_id": "32407",
+        "point_key": "iwamisannai",
+        "pref_key": "akita",
+        "point_name_ja": "岩見三内"
+    },
+    {
+        "point_id": "32466",
+        "point_key": "kakunodate",
+        "pref_key": "akita",
+        "point_name_ja": "角館"
+    },
+    {
+        "point_id": "32476",
+        "point_key": "tazawako",
+        "pref_key": "akita",
+        "point_name_ja": "田沢湖"
+    },
+    {
+        "point_id": "32496",
+        "point_key": "daishoji",
+        "pref_key": "akita",
+        "point_name_ja": "大正寺"
+    },
+    {
+        "point_id": "32551",
+        "point_key": "omagari",
+        "pref_key": "akita",
+        "point_name_ja": "大曲"
+    },
+    {
+        "point_id": "32571",
+        "point_key": "honjo",
+        "pref_key": "akita",
+        "point_name_ja": "本荘"
+    },
+    {
+        "point_id": "32581",
+        "point_key": "higashiyuri",
+        "pref_key": "akita",
+        "point_name_ja": "東由利"
+    },
+    {
+        "point_id": "32596",
+        "point_key": "yokote",
+        "pref_key": "akita",
+        "point_name_ja": "横手"
+    },
+    {
+        "point_id": "32616",
+        "point_key": "nikaho",
+        "pref_key": "akita",
+        "point_name_ja": "にかほ"
+    },
+    {
+        "point_id": "32626",
+        "point_key": "yashima",
+        "pref_key": "akita",
+        "point_name_ja": "矢島"
+    },
+    {
+        "point_id": "32691",
+        "point_key": "yuzawa",
+        "pref_key": "akita",
+        "point_name_ja": "湯沢"
+    },
+    {
+        "point_id": "32771",
+        "point_key": "yunotai",
+        "pref_key": "akita",
+        "point_name_ja": "湯の岱"
+    },
+    {
+        "point_id": "33006",
+        "point_key": "taneichi",
+        "pref_key": "iwate",
+        "point_name_ja": "種市"
+    },
+    {
+        "point_id": "33026",
+        "point_key": "karumai",
+        "pref_key": "iwate",
+        "point_name_ja": "軽米"
+    },
+    {
+        "point_id": "33071",
+        "point_key": "ninohe",
+        "pref_key": "iwate",
+        "point_name_ja": "二戸"
+    },
+    {
+        "point_id": "33136",
+        "point_key": "yamagata",
+        "pref_key": "iwate",
+        "point_name_ja": "山形"
+    },
+    {
+        "point_id": "33146",
+        "point_key": "kuji",
+        "pref_key": "iwate",
+        "point_name_ja": "久慈"
+    },
+    {
+        "point_id": "33166",
+        "point_key": "araya",
+        "pref_key": "iwate",
+        "point_name_ja": "荒屋"
+    },
+    {
+        "point_id": "33176",
+        "point_key": "okunakayama",
+        "pref_key": "iwate",
+        "point_name_ja": "奥中山"
+    },
+    {
+        "point_id": "33186",
+        "point_key": "kuzumaki",
+        "pref_key": "iwate",
+        "point_name_ja": "葛巻"
+    },
+    {
+        "point_id": "33206",
+        "point_key": "fudai",
+        "pref_key": "iwate",
+        "point_name_ja": "普代"
+    },
+    {
+        "point_id": "33226",
+        "point_key": "iwatematsuo",
+        "pref_key": "iwate",
+        "point_name_ja": "岩手松尾"
+    },
+    {
+        "point_id": "33296",
+        "point_key": "koma",
+        "pref_key": "iwate",
+        "point_name_ja": "好摩"
+    },
+    {
+        "point_id": "33326",
+        "point_key": "iwaizumi",
+        "pref_key": "iwate",
+        "point_name_ja": "岩泉"
+    },
+    {
+        "point_id": "33336",
+        "point_key": "omoto",
+        "pref_key": "iwate",
+        "point_name_ja": "小本"
+    },
+    {
+        "point_id": "33371",
+        "point_key": "yabukawa",
+        "pref_key": "iwate",
+        "point_name_ja": "薮川"
+    },
+    {
+        "point_id": "33421",
+        "point_key": "shizukuishi",
+        "pref_key": "iwate",
+        "point_name_ja": "雫石"
+    },
+    {
+        "point_id": "33431",
+        "point_key": "morioka",
+        "pref_key": "iwate",
+        "point_name_ja": "盛岡"
+    },
+    {
+        "point_id": "33441",
+        "point_key": "kuzakai",
+        "pref_key": "iwate",
+        "point_name_ja": "区界"
+    },
+    {
+        "point_id": "33472",
+        "point_key": "miyako",
+        "pref_key": "iwate",
+        "point_name_ja": "宮古"
+    },
+    {
+        "point_id": "33486",
+        "point_key": "sawauchi",
+        "pref_key": "iwate",
+        "point_name_ja": "沢内"
+    },
+    {
+        "point_id": "33501",
+        "point_key": "shiwa",
+        "pref_key": "iwate",
+        "point_name_ja": "紫波"
+    },
+    {
+        "point_id": "33526",
+        "point_key": "kawai",
+        "pref_key": "iwate",
+        "point_name_ja": "川井"
+    },
+    {
+        "point_id": "33581",
+        "point_key": "ohasama",
+        "pref_key": "iwate",
+        "point_name_ja": "大迫"
+    },
+    {
+        "point_id": "33616",
+        "point_key": "yamada",
+        "pref_key": "iwate",
+        "point_name_ja": "山田"
+    },
+    {
+        "point_id": "33631",
+        "point_key": "yuda",
+        "pref_key": "iwate",
+        "point_name_ja": "湯田"
+    },
+    {
+        "point_id": "33671",
+        "point_key": "toono",
+        "pref_key": "iwate",
+        "point_name_ja": "遠野"
+    },
+    {
+        "point_id": "33716",
+        "point_key": "kitakami",
+        "pref_key": "iwate",
+        "point_name_ja": "北上"
+    },
+    {
+        "point_id": "33751",
+        "point_key": "kamaishi",
+        "pref_key": "iwate",
+        "point_name_ja": "釜石"
+    },
+    {
+        "point_id": "33776",
+        "point_key": "wakayanagi",
+        "pref_key": "iwate",
+        "point_name_ja": "若柳"
+    },
+    {
+        "point_id": "33781",
+        "point_key": "esashi",
+        "pref_key": "iwate",
+        "point_name_ja": "江刺"
+    },
+    {
+        "point_id": "33801",
+        "point_key": "sumita",
+        "pref_key": "iwate",
+        "point_name_ja": "住田"
+    },
+    {
+        "point_id": "33877",
+        "point_key": "ofunato",
+        "pref_key": "iwate",
+        "point_name_ja": "大船渡"
+    },
+    {
+        "point_id": "33911",
+        "point_key": "ichinoseki",
+        "pref_key": "iwate",
+        "point_name_ja": "一関"
+    },
+    {
+        "point_id": "33921",
+        "point_key": "semmaya",
+        "pref_key": "iwate",
+        "point_name_ja": "千厩"
+    },
+    {
+        "point_id": "34012",
+        "point_key": "komanoyu",
+        "pref_key": "miyagi",
+        "point_name_ja": "駒ノ湯"
+    },
+    {
+        "point_id": "34026",
+        "point_key": "kesennuma",
+        "pref_key": "miyagi",
+        "point_name_ja": "気仙沼"
+    },
+    {
+        "point_id": "34096",
+        "point_key": "kawatabi",
+        "pref_key": "miyagi",
+        "point_name_ja": "川渡"
+    },
+    {
+        "point_id": "34111",
+        "point_key": "tsukidate",
+        "pref_key": "miyagi",
+        "point_name_ja": "築館"
+    },
+    {
+        "point_id": "34171",
+        "point_key": "yoneyama",
+        "pref_key": "miyagi",
+        "point_name_ja": "米山"
+    },
+    {
+        "point_id": "34186",
+        "point_key": "shizugawa",
+        "pref_key": "miyagi",
+        "point_name_ja": "志津川"
+    },
+    {
+        "point_id": "34216",
+        "point_key": "furukawa",
+        "pref_key": "miyagi",
+        "point_name_ja": "古川"
+    },
+    {
+        "point_id": "34266",
+        "point_key": "ohira",
+        "pref_key": "miyagi",
+        "point_name_ja": "大衡"
+    },
+    {
+        "point_id": "34276",
+        "point_key": "kashimadai",
+        "pref_key": "miyagi",
+        "point_name_ja": "鹿島台"
+    },
+    {
+        "point_id": "34292",
+        "point_key": "ishinomaki",
+        "pref_key": "miyagi",
+        "point_name_ja": "石巻"
+    },
+    {
+        "point_id": "34296",
+        "point_key": "onagawa",
+        "pref_key": "miyagi",
+        "point_name_ja": "女川"
+    },
+    {
+        "point_id": "34311",
+        "point_key": "nikkawa",
+        "pref_key": "miyagi",
+        "point_name_ja": "新川"
+    },
+    {
+        "point_id": "34331",
+        "point_key": "shiogama",
+        "pref_key": "miyagi",
+        "point_name_ja": "塩釜"
+    },
+    {
+        "point_id": "34392",
+        "point_key": "sendai",
+        "pref_key": "miyagi",
+        "point_name_ja": "仙台"
+    },
+    {
+        "point_id": "34461",
+        "point_key": "shiroishi",
+        "pref_key": "miyagi",
+        "point_name_ja": "白石"
+    },
+    {
+        "point_id": "34462",
+        "point_key": "zao",
+        "pref_key": "miyagi",
+        "point_name_ja": "蔵王"
+    },
+    {
+        "point_id": "34471",
+        "point_key": "watari",
+        "pref_key": "miyagi",
+        "point_name_ja": "亘理"
+    },
+    {
+        "point_id": "34506",
+        "point_key": "marumori",
+        "pref_key": "miyagi",
+        "point_name_ja": "丸森"
+    },
+    {
+        "point_id": "35002",
+        "point_key": "tobishima",
+        "pref_key": "yamagata",
+        "point_name_ja": "飛島"
+    },
+    {
+        "point_id": "35052",
+        "point_key": "sakata",
+        "pref_key": "yamagata",
+        "point_name_ja": "酒田"
+    },
+    {
+        "point_id": "35071",
+        "point_key": "sasunabe",
+        "pref_key": "yamagata",
+        "point_name_ja": "差首鍋"
+    },
+    {
+        "point_id": "35116",
+        "point_key": "kaneyama",
+        "pref_key": "yamagata",
+        "point_name_ja": "金山"
+    },
+    {
+        "point_id": "35141",
+        "point_key": "tsuruoka",
+        "pref_key": "yamagata",
+        "point_name_ja": "鶴岡"
+    },
+    {
+        "point_id": "35146",
+        "point_key": "karikawa",
+        "pref_key": "yamagata",
+        "point_name_ja": "狩川"
+    },
+    {
+        "point_id": "35162",
+        "point_key": "shinjo",
+        "pref_key": "yamagata",
+        "point_name_ja": "新庄"
+    },
+    {
+        "point_id": "35176",
+        "point_key": "mukaimachi",
+        "pref_key": "yamagata",
+        "point_name_ja": "向町"
+    },
+    {
+        "point_id": "35216",
+        "point_key": "hijiori",
+        "pref_key": "yamagata",
+        "point_name_ja": "肘折"
+    },
+    {
+        "point_id": "35231",
+        "point_key": "obanazawa",
+        "pref_key": "yamagata",
+        "point_name_ja": "尾花沢"
+    },
+    {
+        "point_id": "35246",
+        "point_key": "nezugaseki",
+        "pref_key": "yamagata",
+        "point_name_ja": "鼠ケ関"
+    },
+    {
+        "point_id": "35332",
+        "point_key": "murayama",
+        "pref_key": "yamagata",
+        "point_name_ja": "村山"
+    },
+    {
+        "point_id": "35361",
+        "point_key": "oisawa",
+        "pref_key": "yamagata",
+        "point_name_ja": "大井沢"
+    },
+    {
+        "point_id": "35376",
+        "point_key": "aterazawa",
+        "pref_key": "yamagata",
+        "point_name_ja": "左沢"
+    },
+    {
+        "point_id": "35426",
+        "point_key": "yamagata",
+        "pref_key": "yamagata",
+        "point_name_ja": "山形"
+    },
+    {
+        "point_id": "35456",
+        "point_key": "nagai",
+        "pref_key": "yamagata",
+        "point_name_ja": "長井"
+    },
+    {
+        "point_id": "35486",
+        "point_key": "oguni",
+        "pref_key": "yamagata",
+        "point_name_ja": "小国"
+    },
+    {
+        "point_id": "35511",
+        "point_key": "takahata",
+        "pref_key": "yamagata",
+        "point_name_ja": "高畠"
+    },
+    {
+        "point_id": "35541",
+        "point_key": "takamine",
+        "pref_key": "yamagata",
+        "point_name_ja": "高峰"
+    },
+    {
+        "point_id": "35552",
+        "point_key": "yonezawa",
+        "pref_key": "yamagata",
+        "point_name_ja": "米沢"
+    },
+    {
+        "point_id": "36056",
+        "point_key": "moniwa",
+        "pref_key": "fukushima",
+        "point_name_ja": "茂庭"
+    },
+    {
+        "point_id": "36066",
+        "point_key": "yanagawa",
+        "pref_key": "fukushima",
+        "point_name_ja": "梁川"
+    },
+    {
+        "point_id": "36106",
+        "point_key": "hibara",
+        "pref_key": "fukushima",
+        "point_name_ja": "桧原"
+    },
+    {
+        "point_id": "36127",
+        "point_key": "fukushima",
+        "pref_key": "fukushima",
+        "point_name_ja": "福島"
+    },
+    {
+        "point_id": "36151",
+        "point_key": "soma",
+        "pref_key": "fukushima",
+        "point_name_ja": "相馬"
+    },
+    {
+        "point_id": "36176",
+        "point_key": "kitakata",
+        "pref_key": "fukushima",
+        "point_name_ja": "喜多方"
+    },
+    {
+        "point_id": "36196",
+        "point_key": "washikura",
+        "pref_key": "fukushima",
+        "point_name_ja": "鷲倉"
+    },
+    {
+        "point_id": "36221",
+        "point_key": "iitate",
+        "pref_key": "fukushima",
+        "point_name_ja": "飯舘"
+    },
+    {
+        "point_id": "36251",
+        "point_key": "nishiaizu",
+        "pref_key": "fukushima",
+        "point_name_ja": "西会津"
+    },
+    {
+        "point_id": "36276",
+        "point_key": "inawashiro",
+        "pref_key": "fukushima",
+        "point_name_ja": "猪苗代"
+    },
+    {
+        "point_id": "36291",
+        "point_key": "nihommatsu",
+        "pref_key": "fukushima",
+        "point_name_ja": "二本松"
+    },
+    {
+        "point_id": "36342",
+        "point_key": "kaneyama",
+        "pref_key": "fukushima",
+        "point_name_ja": "金山"
+    },
+    {
+        "point_id": "36361",
+        "point_key": "wakamatsu",
+        "pref_key": "fukushima",
+        "point_name_ja": "若松"
+    },
+    {
+        "point_id": "36391",
+        "point_key": "funehiki",
+        "pref_key": "fukushima",
+        "point_name_ja": "船引"
+    },
+    {
+        "point_id": "36411",
+        "point_key": "namie",
+        "pref_key": "fukushima",
+        "point_name_ja": "浪江"
+    },
+    {
+        "point_id": "36426",
+        "point_key": "tadami",
+        "pref_key": "fukushima",
+        "point_name_ja": "只見"
+    },
+    {
+        "point_id": "36476",
+        "point_key": "kooriyama",
+        "pref_key": "fukushima",
+        "point_name_ja": "郡山"
+    },
+    {
+        "point_id": "36501",
+        "point_key": "kawauchi",
+        "pref_key": "fukushima",
+        "point_name_ja": "川内"
+    },
+    {
+        "point_id": "36536",
+        "point_key": "nango",
+        "pref_key": "fukushima",
+        "point_name_ja": "南郷"
+    },
+    {
+        "point_id": "36562",
+        "point_key": "yumoto",
+        "pref_key": "fukushima",
+        "point_name_ja": "湯本"
+    },
+    {
+        "point_id": "36591",
+        "point_key": "ononiimachi",
+        "pref_key": "fukushima",
+        "point_name_ja": "小野新町"
+    },
+    {
+        "point_id": "36611",
+        "point_key": "hirono",
+        "pref_key": "fukushima",
+        "point_name_ja": "広野"
+    },
+    {
+        "point_id": "36641",
+        "point_key": "tajima",
+        "pref_key": "fukushima",
+        "point_name_ja": "田島"
+    },
+    {
+        "point_id": "36667",
+        "point_key": "shirakawa",
+        "pref_key": "fukushima",
+        "point_name_ja": "白河"
+    },
+    {
+        "point_id": "36676",
+        "point_key": "ishikawa",
+        "pref_key": "fukushima",
+        "point_name_ja": "石川"
+    },
+    {
+        "point_id": "36716",
+        "point_key": "hinoemata",
+        "pref_key": "fukushima",
+        "point_name_ja": "桧枝岐"
+    },
+    {
+        "point_id": "36821",
+        "point_key": "higashishirakawa",
+        "pref_key": "fukushima",
+        "point_name_ja": "東白川"
+    },
+    {
+        "point_id": "36836",
+        "point_key": "yamada",
+        "pref_key": "fukushima",
+        "point_name_ja": "山田"
+    },
+    {
+        "point_id": "36846",
+        "point_key": "onahama",
+        "pref_key": "fukushima",
+        "point_name_ja": "小名浜"
+    },
+    {
+        "point_id": "40046",
+        "point_key": "kitaibaraki",
+        "pref_key": "ibaraki",
+        "point_name_ja": "北茨城"
+    },
+    {
+        "point_id": "40061",
+        "point_key": "daigo",
+        "pref_key": "ibaraki",
+        "point_name_ja": "大子"
+    },
+    {
+        "point_id": "40091",
+        "point_key": "hitachiomiya",
+        "pref_key": "ibaraki",
+        "point_name_ja": "常陸大宮"
+    },
+    {
+        "point_id": "40136",
+        "point_key": "hitachi",
+        "pref_key": "ibaraki",
+        "point_name_ja": "日立"
+    },
+    {
+        "point_id": "40191",
+        "point_key": "kasama",
+        "pref_key": "ibaraki",
+        "point_name_ja": "笠間"
+    },
+    {
+        "point_id": "40201",
+        "point_key": "mito",
+        "pref_key": "ibaraki",
+        "point_name_ja": "水戸"
+    },
+    {
+        "point_id": "40221",
+        "point_key": "koga",
+        "pref_key": "ibaraki",
+        "point_name_ja": "古河"
+    },
+    {
+        "point_id": "40231",
+        "point_key": "shimodate",
+        "pref_key": "ibaraki",
+        "point_name_ja": "下館"
+    },
+    {
+        "point_id": "40281",
+        "point_key": "shimotsuma",
+        "pref_key": "ibaraki",
+        "point_name_ja": "下妻"
+    },
+    {
+        "point_id": "40311",
+        "point_key": "hokota",
+        "pref_key": "ibaraki",
+        "point_name_ja": "鉾田"
+    },
+    {
+        "point_id": "40336",
+        "point_key": "tsukuba",
+        "pref_key": "ibaraki",
+        "point_name_ja": "つくば"
+    },
+    {
+        "point_id": "40341",
+        "point_key": "tsuchiura",
+        "pref_key": "ibaraki",
+        "point_name_ja": "土浦"
+    },
+    {
+        "point_id": "40406",
+        "point_key": "kashima",
+        "pref_key": "ibaraki",
+        "point_name_ja": "鹿嶋"
+    },
+    {
+        "point_id": "40426",
+        "point_key": "ryugasaki",
+        "pref_key": "ibaraki",
+        "point_name_ja": "龍ケ崎"
+    },
+    {
+        "point_id": "41011",
+        "point_key": "nasu-kogen",
+        "pref_key": "tochigi",
+        "point_name_ja": "那須高原"
+    },
+    {
+        "point_id": "41076",
+        "point_key": "ikari",
+        "pref_key": "tochigi",
+        "point_name_ja": "五十里"
+    },
+    {
+        "point_id": "41091",
+        "point_key": "kuroiso",
+        "pref_key": "tochigi",
+        "point_name_ja": "黒磯"
+    },
+    {
+        "point_id": "41116",
+        "point_key": "dorobu",
+        "pref_key": "tochigi",
+        "point_name_ja": "土呂部"
+    },
+    {
+        "point_id": "41141",
+        "point_key": "otawara",
+        "pref_key": "tochigi",
+        "point_name_ja": "大田原"
+    },
+    {
+        "point_id": "41166",
+        "point_key": "okunikko",
+        "pref_key": "tochigi",
+        "point_name_ja": "奥日光"
+    },
+    {
+        "point_id": "41172",
+        "point_key": "nikko-higashimachi",
+        "pref_key": "tochigi",
+        "point_name_ja": "日光東町"
+    },
+    {
+        "point_id": "41181",
+        "point_key": "shioya",
+        "pref_key": "tochigi",
+        "point_name_ja": "塩谷"
+    },
+    {
+        "point_id": "41247",
+        "point_key": "nasu-karasuyama",
+        "pref_key": "tochigi",
+        "point_name_ja": "那須烏山"
+    },
+    {
+        "point_id": "41271",
+        "point_key": "kanuma",
+        "pref_key": "tochigi",
+        "point_name_ja": "鹿沼"
+    },
+    {
+        "point_id": "41277",
+        "point_key": "utsunomiya",
+        "pref_key": "tochigi",
+        "point_name_ja": "宇都宮"
+    },
+    {
+        "point_id": "41331",
+        "point_key": "mooka",
+        "pref_key": "tochigi",
+        "point_name_ja": "真岡"
+    },
+    {
+        "point_id": "41361",
+        "point_key": "sano",
+        "pref_key": "tochigi",
+        "point_name_ja": "佐野"
+    },
+    {
+        "point_id": "41376",
+        "point_key": "oyama",
+        "pref_key": "tochigi",
+        "point_name_ja": "小山"
+    },
+    {
+        "point_id": "42046",
+        "point_key": "fujiwara",
+        "pref_key": "gunma",
+        "point_name_ja": "藤原"
+    },
+    {
+        "point_id": "42091",
+        "point_key": "minakami",
+        "pref_key": "gunma",
+        "point_name_ja": "みなかみ"
+    },
+    {
+        "point_id": "42121",
+        "point_key": "kusatsu",
+        "pref_key": "gunma",
+        "point_name_ja": "草津"
+    },
+    {
+        "point_id": "42146",
+        "point_key": "numata",
+        "pref_key": "gunma",
+        "point_name_ja": "沼田"
+    },
+    {
+        "point_id": "42186",
+        "point_key": "nakanojo",
+        "pref_key": "gunma",
+        "point_name_ja": "中之条"
+    },
+    {
+        "point_id": "42221",
+        "point_key": "tashiro",
+        "pref_key": "gunma",
+        "point_name_ja": "田代"
+    },
+    {
+        "point_id": "42251",
+        "point_key": "maebashi",
+        "pref_key": "gunma",
+        "point_name_ja": "前橋"
+    },
+    {
+        "point_id": "42266",
+        "point_key": "kiryu",
+        "pref_key": "gunma",
+        "point_name_ja": "桐生"
+    },
+    {
+        "point_id": "42286",
+        "point_key": "kamisatomi",
+        "pref_key": "gunma",
+        "point_name_ja": "上里見"
+    },
+    {
+        "point_id": "42302",
+        "point_key": "isesaki",
+        "pref_key": "gunma",
+        "point_name_ja": "伊勢崎"
+    },
+    {
+        "point_id": "42326",
+        "point_key": "nishi-nomaki",
+        "pref_key": "gunma",
+        "point_name_ja": "西野牧"
+    },
+    {
+        "point_id": "42366",
+        "point_key": "tatebayashi",
+        "pref_key": "gunma",
+        "point_name_ja": "館林"
+    },
+    {
+        "point_id": "42396",
+        "point_key": "kanna",
+        "pref_key": "gunma",
+        "point_name_ja": "神流"
+    },
+    {
+        "point_id": "43051",
+        "point_key": "yorii",
+        "pref_key": "saitama",
+        "point_name_ja": "寄居"
+    },
+    {
+        "point_id": "43056",
+        "point_key": "kumagaya",
+        "pref_key": "saitama",
+        "point_name_ja": "熊谷"
+    },
+    {
+        "point_id": "43126",
+        "point_key": "kuki",
+        "pref_key": "saitama",
+        "point_name_ja": "久喜"
+    },
+    {
+        "point_id": "43156",
+        "point_key": "chichibu",
+        "pref_key": "saitama",
+        "point_name_ja": "秩父"
+    },
+    {
+        "point_id": "43171",
+        "point_key": "hatoyama",
+        "pref_key": "saitama",
+        "point_name_ja": "鳩山"
+    },
+    {
+        "point_id": "43241",
+        "point_key": "saitama",
+        "pref_key": "saitama",
+        "point_name_ja": "さいたま"
+    },
+    {
+        "point_id": "43256",
+        "point_key": "koshigaya",
+        "pref_key": "saitama",
+        "point_name_ja": "越谷"
+    },
+    {
+        "point_id": "43266",
+        "point_key": "tokorozawa",
+        "pref_key": "saitama",
+        "point_name_ja": "所沢"
+    },
+    {
+        "point_id": "44046",
+        "point_key": "ogochi",
+        "pref_key": "tokyo",
+        "point_name_ja": "小河内"
+    },
+    {
+        "point_id": "44056",
+        "point_key": "ome",
+        "pref_key": "tokyo",
+        "point_name_ja": "青梅"
+    },
+    {
+        "point_id": "44071",
+        "point_key": "nerima",
+        "pref_key": "tokyo",
+        "point_name_ja": "練馬"
+    },
+    {
+        "point_id": "44112",
+        "point_key": "hachioji",
+        "pref_key": "tokyo",
+        "point_name_ja": "八王子"
+    },
+    {
+        "point_id": "44116",
+        "point_key": "fuchu",
+        "pref_key": "tokyo",
+        "point_name_ja": "府中"
+    },
+    {
+        "point_id": "44132",
+        "point_key": "tokyo",
+        "pref_key": "tokyo",
+        "point_name_ja": "東京"
+    },
+    {
+        "point_id": "44136",
+        "point_key": "edogawa-rinkai",
+        "pref_key": "tokyo",
+        "point_name_ja": "江戸川臨海"
+    },
+    {
+        "point_id": "44172",
+        "point_key": "oshima",
+        "pref_key": "tokyo",
+        "point_name_ja": "大島"
+    },
+    {
+        "point_id": "44226",
+        "point_key": "miyakejima",
+        "pref_key": "tokyo",
+        "point_name_ja": "三宅島"
+    },
+    {
+        "point_id": "44263",
+        "point_key": "hachijojima",
+        "pref_key": "tokyo",
+        "point_name_ja": "八丈島"
+    },
+    {
+        "point_id": "44301",
+        "point_key": "chichijima",
+        "pref_key": "tokyo",
+        "point_name_ja": "父島"
+    },
+    {
+        "point_id": "45061",
+        "point_key": "abiko",
+        "pref_key": "chiba",
+        "point_name_ja": "我孫子"
+    },
+    {
+        "point_id": "45081",
+        "point_key": "katori",
+        "pref_key": "chiba",
+        "point_name_ja": "香取"
+    },
+    {
+        "point_id": "45106",
+        "point_key": "funabashi",
+        "pref_key": "chiba",
+        "point_name_ja": "船橋"
+    },
+    {
+        "point_id": "45116",
+        "point_key": "sakura",
+        "pref_key": "chiba",
+        "point_name_ja": "佐倉"
+    },
+    {
+        "point_id": "45147",
+        "point_key": "choshi",
+        "pref_key": "chiba",
+        "point_name_ja": "銚子"
+    },
+    {
+        "point_id": "45181",
+        "point_key": "yokoshibahikari",
+        "pref_key": "chiba",
+        "point_name_ja": "横芝光"
+    },
+    {
+        "point_id": "45212",
+        "point_key": "chiba",
+        "pref_key": "chiba",
+        "point_name_ja": "千葉"
+    },
+    {
+        "point_id": "45261",
+        "point_key": "mobara",
+        "pref_key": "chiba",
+        "point_name_ja": "茂原"
+    },
+    {
+        "point_id": "45282",
+        "point_key": "kisarazu",
+        "pref_key": "chiba",
+        "point_name_ja": "木更津"
+    },
+    {
+        "point_id": "45291",
+        "point_key": "ushiku",
+        "pref_key": "chiba",
+        "point_name_ja": "牛久"
+    },
+    {
+        "point_id": "45326",
+        "point_key": "sakahata",
+        "pref_key": "chiba",
+        "point_name_ja": "坂畑"
+    },
+    {
+        "point_id": "45361",
+        "point_key": "kamogawa",
+        "pref_key": "chiba",
+        "point_name_ja": "鴨川"
+    },
+    {
+        "point_id": "45371",
+        "point_key": "katsuura",
+        "pref_key": "chiba",
+        "point_name_ja": "勝浦"
+    },
+    {
+        "point_id": "45401",
+        "point_key": "tateyama",
+        "pref_key": "chiba",
+        "point_name_ja": "館山"
+    },
+    {
+        "point_id": "46091",
+        "point_key": "ebina",
+        "pref_key": "kanagawa",
+        "point_name_ja": "海老名"
+    },
+    {
+        "point_id": "46106",
+        "point_key": "yokohama",
+        "pref_key": "kanagawa",
+        "point_name_ja": "横浜"
+    },
+    {
+        "point_id": "46141",
+        "point_key": "tsujido",
+        "pref_key": "kanagawa",
+        "point_name_ja": "辻堂"
+    },
+    {
+        "point_id": "46166",
+        "point_key": "odawara",
+        "pref_key": "kanagawa",
+        "point_name_ja": "小田原"
+    },
+    {
+        "point_id": "46211",
+        "point_key": "miura",
+        "pref_key": "kanagawa",
+        "point_name_ja": "三浦"
+    },
+    {
+        "point_id": "48031",
+        "point_key": "nozawaonsen",
+        "pref_key": "nagano",
+        "point_name_ja": "野沢温泉"
+    },
+    {
+        "point_id": "48061",
+        "point_key": "shinanomachi",
+        "pref_key": "nagano",
+        "point_name_ja": "信濃町"
+    },
+    {
+        "point_id": "48066",
+        "point_key": "iiyama",
+        "pref_key": "nagano",
+        "point_name_ja": "飯山"
+    },
+    {
+        "point_id": "48141",
+        "point_key": "hakuba",
+        "pref_key": "nagano",
+        "point_name_ja": "白馬"
+    },
+    {
+        "point_id": "48156",
+        "point_key": "nagano",
+        "pref_key": "nagano",
+        "point_name_ja": "長野"
+    },
+    {
+        "point_id": "48191",
+        "point_key": "omachi",
+        "pref_key": "nagano",
+        "point_name_ja": "大町"
+    },
+    {
+        "point_id": "48196",
+        "point_key": "shinshushimmachi",
+        "pref_key": "nagano",
+        "point_name_ja": "信州新町"
+    },
+    {
+        "point_id": "48216",
+        "point_key": "sugadaira",
+        "pref_key": "nagano",
+        "point_name_ja": "菅平"
+    },
+    {
+        "point_id": "48256",
+        "point_key": "ueda",
+        "pref_key": "nagano",
+        "point_name_ja": "上田"
+    },
+    {
+        "point_id": "48296",
+        "point_key": "hotaka",
+        "pref_key": "nagano",
+        "point_name_ja": "穂高"
+    },
+    {
+        "point_id": "48321",
+        "point_key": "tomi",
+        "pref_key": "nagano",
+        "point_name_ja": "東御"
+    },
+    {
+        "point_id": "48331",
+        "point_key": "karuizawa",
+        "pref_key": "nagano",
+        "point_name_ja": "軽井沢"
+    },
+    {
+        "point_id": "48361",
+        "point_key": "matsumoto",
+        "pref_key": "nagano",
+        "point_name_ja": "松本"
+    },
+    {
+        "point_id": "48381",
+        "point_key": "tateshina",
+        "pref_key": "nagano",
+        "point_name_ja": "立科"
+    },
+    {
+        "point_id": "48386",
+        "point_key": "saku",
+        "pref_key": "nagano",
+        "point_name_ja": "佐久"
+    },
+    {
+        "point_id": "48466",
+        "point_key": "nagawa",
+        "pref_key": "nagano",
+        "point_name_ja": "奈川"
+    },
+    {
+        "point_id": "48491",
+        "point_key": "suwa",
+        "pref_key": "nagano",
+        "point_name_ja": "諏訪"
+    },
+    {
+        "point_id": "48531",
+        "point_key": "kaidakogen",
+        "pref_key": "nagano",
+        "point_name_ja": "開田高原"
+    },
+    {
+        "point_id": "48536",
+        "point_key": "kiso-yabuhara",
+        "pref_key": "nagano",
+        "point_name_ja": "木祖薮原"
+    },
+    {
+        "point_id": "48546",
+        "point_key": "tatsuno",
+        "pref_key": "nagano",
+        "point_name_ja": "辰野"
+    },
+    {
+        "point_id": "48561",
+        "point_key": "haramura",
+        "pref_key": "nagano",
+        "point_name_ja": "原村"
+    },
+    {
+        "point_id": "48571",
+        "point_key": "nobeyama",
+        "pref_key": "nagano",
+        "point_name_ja": "野辺山"
+    },
+    {
+        "point_id": "48606",
+        "point_key": "kisofukushima",
+        "pref_key": "nagano",
+        "point_name_ja": "木曽福島"
+    },
+    {
+        "point_id": "48621",
+        "point_key": "ina",
+        "pref_key": "nagano",
+        "point_name_ja": "伊那"
+    },
+    {
+        "point_id": "48717",
+        "point_key": "nagiso",
+        "pref_key": "nagano",
+        "point_name_ja": "南木曽"
+    },
+    {
+        "point_id": "48731",
+        "point_key": "iijima",
+        "pref_key": "nagano",
+        "point_name_ja": "飯島"
+    },
+    {
+        "point_id": "48767",
+        "point_key": "iida",
+        "pref_key": "nagano",
+        "point_name_ja": "飯田"
+    },
+    {
+        "point_id": "48826",
+        "point_key": "namiai",
+        "pref_key": "nagano",
+        "point_name_ja": "浪合"
+    },
+    {
+        "point_id": "48841",
+        "point_key": "minamishinano",
+        "pref_key": "nagano",
+        "point_name_ja": "南信濃"
+    },
+    {
+        "point_id": "49036",
+        "point_key": "oizumi",
+        "pref_key": "yamanashi",
+        "point_name_ja": "大泉"
+    },
+    {
+        "point_id": "49086",
+        "point_key": "nirasaki",
+        "pref_key": "yamanashi",
+        "point_name_ja": "韮崎"
+    },
+    {
+        "point_id": "49142",
+        "point_key": "kofu",
+        "pref_key": "yamanashi",
+        "point_name_ja": "甲府"
+    },
+    {
+        "point_id": "49151",
+        "point_key": "katsunuma",
+        "pref_key": "yamanashi",
+        "point_name_ja": "勝沼"
+    },
+    {
+        "point_id": "49161",
+        "point_key": "otsuki",
+        "pref_key": "yamanashi",
+        "point_name_ja": "大月"
+    },
+    {
+        "point_id": "49196",
+        "point_key": "furuseki",
+        "pref_key": "yamanashi",
+        "point_name_ja": "古関"
+    },
+    {
+        "point_id": "49236",
+        "point_key": "kiriishi",
+        "pref_key": "yamanashi",
+        "point_name_ja": "切石"
+    },
+    {
+        "point_id": "49251",
+        "point_key": "kawaguchi-ko",
+        "pref_key": "yamanashi",
+        "point_name_ja": "河口湖"
+    },
+    {
+        "point_id": "49256",
+        "point_key": "yamanaka",
+        "pref_key": "yamanashi",
+        "point_name_ja": "山中"
+    },
+    {
+        "point_id": "49316",
+        "point_key": "nambu",
+        "pref_key": "yamanashi",
+        "point_name_ja": "南部"
+    },
+    {
+        "point_id": "50106",
+        "point_key": "ikawa",
+        "pref_key": "shizuoka",
+        "point_name_ja": "井川"
+    },
+    {
+        "point_id": "50136",
+        "point_key": "gotemba",
+        "pref_key": "shizuoka",
+        "point_name_ja": "御殿場"
+    },
+    {
+        "point_id": "50196",
+        "point_key": "fuji",
+        "pref_key": "shizuoka",
+        "point_name_ja": "富士"
+    },
+    {
+        "point_id": "50206",
+        "point_key": "mishima",
+        "pref_key": "shizuoka",
+        "point_name_ja": "三島"
+    },
+    {
+        "point_id": "50226",
+        "point_key": "sakuma",
+        "pref_key": "shizuoka",
+        "point_name_ja": "佐久間"
+    },
+    {
+        "point_id": "50241",
+        "point_key": "kawanehoncho",
+        "pref_key": "shizuoka",
+        "point_name_ja": "川根本町"
+    },
+    {
+        "point_id": "50261",
+        "point_key": "shimizu",
+        "pref_key": "shizuoka",
+        "point_name_ja": "清水"
+    },
+    {
+        "point_id": "50281",
+        "point_key": "ajiro",
+        "pref_key": "shizuoka",
+        "point_name_ja": "網代"
+    },
+    {
+        "point_id": "50331",
+        "point_key": "shizuoka",
+        "pref_key": "shizuoka",
+        "point_name_ja": "静岡"
+    },
+    {
+        "point_id": "50386",
+        "point_key": "tenryu",
+        "pref_key": "shizuoka",
+        "point_name_ja": "天竜"
+    },
+    {
+        "point_id": "50456",
+        "point_key": "hamamatsu",
+        "pref_key": "shizuoka",
+        "point_name_ja": "浜松"
+    },
+    {
+        "point_id": "50476",
+        "point_key": "kikugawa-makinohara",
+        "pref_key": "shizuoka",
+        "point_name_ja": "菊川牧之原"
+    },
+    {
+        "point_id": "50491",
+        "point_key": "matsuzaki",
+        "pref_key": "shizuoka",
+        "point_name_ja": "松崎"
+    },
+    {
+        "point_id": "50506",
+        "point_key": "inatori",
+        "pref_key": "shizuoka",
+        "point_name_ja": "稲取"
+    },
+    {
+        "point_id": "50536",
+        "point_key": "iwata",
+        "pref_key": "shizuoka",
+        "point_name_ja": "磐田"
+    },
+    {
+        "point_id": "50551",
+        "point_key": "omaezaki",
+        "pref_key": "shizuoka",
+        "point_name_ja": "御前崎"
+    },
+    {
+        "point_id": "50561",
+        "point_key": "irozaki",
+        "pref_key": "shizuoka",
+        "point_name_ja": "石廊崎"
+    },
+    {
+        "point_id": "51031",
+        "point_key": "aisai",
+        "pref_key": "aichi",
+        "point_name_ja": "愛西"
+    },
+    {
+        "point_id": "51071",
+        "point_key": "inabu",
+        "pref_key": "aichi",
+        "point_name_ja": "稲武"
+    },
+    {
+        "point_id": "51106",
+        "point_key": "nagoya",
+        "pref_key": "aichi",
+        "point_name_ja": "名古屋"
+    },
+    {
+        "point_id": "51116",
+        "point_key": "toyota",
+        "pref_key": "aichi",
+        "point_name_ja": "豊田"
+    },
+    {
+        "point_id": "51216",
+        "point_key": "obu",
+        "pref_key": "aichi",
+        "point_name_ja": "大府"
+    },
+    {
+        "point_id": "51226",
+        "point_key": "okazaki",
+        "pref_key": "aichi",
+        "point_name_ja": "岡崎"
+    },
+    {
+        "point_id": "51247",
+        "point_key": "shinshiro",
+        "pref_key": "aichi",
+        "point_name_ja": "新城"
+    },
+    {
+        "point_id": "51281",
+        "point_key": "gamagoori",
+        "pref_key": "aichi",
+        "point_name_ja": "蒲郡"
+    },
+    {
+        "point_id": "51311",
+        "point_key": "minamichita",
+        "pref_key": "aichi",
+        "point_name_ja": "南知多"
+    },
+    {
+        "point_id": "51331",
+        "point_key": "toyohashi",
+        "pref_key": "aichi",
+        "point_name_ja": "豊橋"
+    },
+    {
+        "point_id": "51346",
+        "point_key": "irako",
+        "pref_key": "aichi",
+        "point_name_ja": "伊良湖"
+    },
+    {
+        "point_id": "52041",
+        "point_key": "kawai",
+        "pref_key": "gifu",
+        "point_name_ja": "河合"
+    },
+    {
+        "point_id": "52051",
+        "point_key": "kamioka",
+        "pref_key": "gifu",
+        "point_name_ja": "神岡"
+    },
+    {
+        "point_id": "52081",
+        "point_key": "shirakawa",
+        "pref_key": "gifu",
+        "point_name_ja": "白川"
+    },
+    {
+        "point_id": "52111",
+        "point_key": "tochio",
+        "pref_key": "gifu",
+        "point_name_ja": "栃尾"
+    },
+    {
+        "point_id": "52146",
+        "point_key": "takayama",
+        "pref_key": "gifu",
+        "point_name_ja": "高山"
+    },
+    {
+        "point_id": "52181",
+        "point_key": "mumaya",
+        "pref_key": "gifu",
+        "point_name_ja": "六厩"
+    },
+    {
+        "point_id": "52196",
+        "point_key": "miyanomae",
+        "pref_key": "gifu",
+        "point_name_ja": "宮之前"
+    },
+    {
+        "point_id": "52221",
+        "point_key": "nagataki",
+        "pref_key": "gifu",
+        "point_name_ja": "長滝"
+    },
+    {
+        "point_id": "52286",
+        "point_key": "hagiwara",
+        "pref_key": "gifu",
+        "point_name_ja": "萩原"
+    },
+    {
+        "point_id": "52331",
+        "point_key": "hachiman",
+        "pref_key": "gifu",
+        "point_name_ja": "八幡"
+    },
+    {
+        "point_id": "52346",
+        "point_key": "miyaji",
+        "pref_key": "gifu",
+        "point_name_ja": "宮地"
+    },
+    {
+        "point_id": "52381",
+        "point_key": "tarumi",
+        "pref_key": "gifu",
+        "point_name_ja": "樽見"
+    },
+    {
+        "point_id": "52406",
+        "point_key": "kanayama",
+        "pref_key": "gifu",
+        "point_name_ja": "金山"
+    },
+    {
+        "point_id": "52461",
+        "point_key": "mino",
+        "pref_key": "gifu",
+        "point_name_ja": "美濃"
+    },
+    {
+        "point_id": "52482",
+        "point_key": "kurokawa",
+        "pref_key": "gifu",
+        "point_name_ja": "黒川"
+    },
+    {
+        "point_id": "52511",
+        "point_key": "ibigawa",
+        "pref_key": "gifu",
+        "point_name_ja": "揖斐川"
+    },
+    {
+        "point_id": "52536",
+        "point_key": "minokamo",
+        "pref_key": "gifu",
+        "point_name_ja": "美濃加茂"
+    },
+    {
+        "point_id": "52556",
+        "point_key": "ena",
+        "pref_key": "gifu",
+        "point_name_ja": "恵那"
+    },
+    {
+        "point_id": "52557",
+        "point_key": "nakatsugawa",
+        "pref_key": "gifu",
+        "point_name_ja": "中津川"
+    },
+    {
+        "point_id": "52571",
+        "point_key": "sekigahara",
+        "pref_key": "gifu",
+        "point_name_ja": "関ケ原"
+    },
+    {
+        "point_id": "52581",
+        "point_key": "ogaki",
+        "pref_key": "gifu",
+        "point_name_ja": "大垣"
+    },
+    {
+        "point_id": "52586",
+        "point_key": "gifu",
+        "pref_key": "gifu",
+        "point_name_ja": "岐阜"
+    },
+    {
+        "point_id": "52606",
+        "point_key": "tajimi",
+        "pref_key": "gifu",
+        "point_name_ja": "多治見"
+    },
+    {
+        "point_id": "53041",
+        "point_key": "kuwana",
+        "pref_key": "mie",
+        "point_name_ja": "桑名"
+    },
+    {
+        "point_id": "53061",
+        "point_key": "yokkaichi",
+        "pref_key": "mie",
+        "point_name_ja": "四日市"
+    },
+    {
+        "point_id": "53091",
+        "point_key": "kameyama",
+        "pref_key": "mie",
+        "point_name_ja": "亀山"
+    },
+    {
+        "point_id": "53112",
+        "point_key": "ueno",
+        "pref_key": "mie",
+        "point_name_ja": "上野"
+    },
+    {
+        "point_id": "53133",
+        "point_key": "tsu",
+        "pref_key": "mie",
+        "point_name_ja": "津"
+    },
+    {
+        "point_id": "53196",
+        "point_key": "obata",
+        "pref_key": "mie",
+        "point_name_ja": "小俣"
+    },
+    {
+        "point_id": "53231",
+        "point_key": "kayumi",
+        "pref_key": "mie",
+        "point_name_ja": "粥見"
+    },
+    {
+        "point_id": "53257",
+        "point_key": "toba",
+        "pref_key": "mie",
+        "point_name_ja": "鳥羽"
+    },
+    {
+        "point_id": "53296",
+        "point_key": "minamiise",
+        "pref_key": "mie",
+        "point_name_ja": "南伊勢"
+    },
+    {
+        "point_id": "53326",
+        "point_key": "kii-nagashima",
+        "pref_key": "mie",
+        "point_name_ja": "紀伊長島"
+    },
+    {
+        "point_id": "53378",
+        "point_key": "owase",
+        "pref_key": "mie",
+        "point_name_ja": "尾鷲"
+    },
+    {
+        "point_id": "53401",
+        "point_key": "kumanoatashika",
+        "pref_key": "mie",
+        "point_name_ja": "熊野新鹿"
+    },
+    {
+        "point_id": "54012",
+        "point_key": "awashima",
+        "pref_key": "niigata",
+        "point_name_ja": "粟島"
+    },
+    {
+        "point_id": "54041",
+        "point_key": "hagikizaki",
+        "pref_key": "niigata",
+        "point_name_ja": "弾崎"
+    },
+    {
+        "point_id": "54086",
+        "point_key": "murakami",
+        "pref_key": "niigata",
+        "point_name_ja": "村上"
+    },
+    {
+        "point_id": "54157",
+        "point_key": "aikawa",
+        "pref_key": "niigata",
+        "point_name_ja": "相川"
+    },
+    {
+        "point_id": "54166",
+        "point_key": "ryotsu",
+        "pref_key": "niigata",
+        "point_name_ja": "両津"
+    },
+    {
+        "point_id": "54181",
+        "point_key": "nakajo",
+        "pref_key": "niigata",
+        "point_name_ja": "中条"
+    },
+    {
+        "point_id": "54191",
+        "point_key": "shimoseki",
+        "pref_key": "niigata",
+        "point_name_ja": "下関"
+    },
+    {
+        "point_id": "54232",
+        "point_key": "niigata",
+        "pref_key": "niigata",
+        "point_name_ja": "新潟"
+    },
+    {
+        "point_id": "54271",
+        "point_key": "hamochi",
+        "pref_key": "niigata",
+        "point_name_ja": "羽茂"
+    },
+    {
+        "point_id": "54296",
+        "point_key": "niitsu",
+        "pref_key": "niigata",
+        "point_name_ja": "新津"
+    },
+    {
+        "point_id": "54341",
+        "point_key": "maki",
+        "pref_key": "niigata",
+        "point_name_ja": "巻"
+    },
+    {
+        "point_id": "54387",
+        "point_key": "teradomari",
+        "pref_key": "niigata",
+        "point_name_ja": "寺泊"
+    },
+    {
+        "point_id": "54396",
+        "point_key": "sanjo",
+        "pref_key": "niigata",
+        "point_name_ja": "三条"
+    },
+    {
+        "point_id": "54421",
+        "point_key": "tsugawa",
+        "pref_key": "niigata",
+        "point_name_ja": "津川"
+    },
+    {
+        "point_id": "54501",
+        "point_key": "nagaoka",
+        "pref_key": "niigata",
+        "point_name_ja": "長岡"
+    },
+    {
+        "point_id": "54541",
+        "point_key": "kashiwazaki",
+        "pref_key": "niigata",
+        "point_name_ja": "柏崎"
+    },
+    {
+        "point_id": "54566",
+        "point_key": "sumon",
+        "pref_key": "niigata",
+        "point_name_ja": "守門"
+    },
+    {
+        "point_id": "54586",
+        "point_key": "ogata",
+        "pref_key": "niigata",
+        "point_name_ja": "大潟"
+    },
+    {
+        "point_id": "54616",
+        "point_key": "koide",
+        "pref_key": "niigata",
+        "point_name_ja": "小出"
+    },
+    {
+        "point_id": "54651",
+        "point_key": "takada",
+        "pref_key": "niigata",
+        "point_name_ja": "高田"
+    },
+    {
+        "point_id": "54661",
+        "point_key": "yasuzuka",
+        "pref_key": "niigata",
+        "point_name_ja": "安塚"
+    },
+    {
+        "point_id": "54676",
+        "point_key": "tokamachi",
+        "pref_key": "niigata",
+        "point_name_ja": "十日町"
+    },
+    {
+        "point_id": "54711",
+        "point_key": "itoigawa",
+        "pref_key": "niigata",
+        "point_name_ja": "糸魚川"
+    },
+    {
+        "point_id": "54721",
+        "point_key": "no",
+        "pref_key": "niigata",
+        "point_name_ja": "能生"
+    },
+    {
+        "point_id": "54816",
+        "point_key": "sekiyama",
+        "pref_key": "niigata",
+        "point_name_ja": "関山"
+    },
+    {
+        "point_id": "54836",
+        "point_key": "tsunan",
+        "pref_key": "niigata",
+        "point_name_ja": "津南"
+    },
+    {
+        "point_id": "54841",
+        "point_key": "yuzawa",
+        "pref_key": "niigata",
+        "point_name_ja": "湯沢"
+    },
+    {
+        "point_id": "55022",
+        "point_key": "asahi",
+        "pref_key": "toyama",
+        "point_name_ja": "朝日"
+    },
+    {
+        "point_id": "55041",
+        "point_key": "himi",
+        "pref_key": "toyama",
+        "point_name_ja": "氷見"
+    },
+    {
+        "point_id": "55056",
+        "point_key": "uozu",
+        "pref_key": "toyama",
+        "point_name_ja": "魚津"
+    },
+    {
+        "point_id": "55091",
+        "point_key": "fushiki",
+        "pref_key": "toyama",
+        "point_name_ja": "伏木"
+    },
+    {
+        "point_id": "55102",
+        "point_key": "toyama",
+        "pref_key": "toyama",
+        "point_name_ja": "富山"
+    },
+    {
+        "point_id": "55141",
+        "point_key": "tonami",
+        "pref_key": "toyama",
+        "point_name_ja": "砺波"
+    },
+    {
+        "point_id": "55166",
+        "point_key": "kamiichi",
+        "pref_key": "toyama",
+        "point_name_ja": "上市"
+    },
+    {
+        "point_id": "55191",
+        "point_key": "nantotakamiya",
+        "pref_key": "toyama",
+        "point_name_ja": "南砺高宮"
+    },
+    {
+        "point_id": "55206",
+        "point_key": "yatsuo",
+        "pref_key": "toyama",
+        "point_name_ja": "八尾"
+    },
+    {
+        "point_id": "56036",
+        "point_key": "suzu",
+        "pref_key": "ishikawa",
+        "point_name_ja": "珠洲"
+    },
+    {
+        "point_id": "56052",
+        "point_key": "wajima",
+        "pref_key": "ishikawa",
+        "point_name_ja": "輪島"
+    },
+    {
+        "point_id": "56116",
+        "point_key": "shika",
+        "pref_key": "ishikawa",
+        "point_name_ja": "志賀"
+    },
+    {
+        "point_id": "56146",
+        "point_key": "nanao",
+        "pref_key": "ishikawa",
+        "point_name_ja": "七尾"
+    },
+    {
+        "point_id": "56176",
+        "point_key": "hakui",
+        "pref_key": "ishikawa",
+        "point_name_ja": "羽咋"
+    },
+    {
+        "point_id": "56186",
+        "point_key": "kahoku",
+        "pref_key": "ishikawa",
+        "point_name_ja": "かほく"
+    },
+    {
+        "point_id": "56227",
+        "point_key": "kanazawa",
+        "pref_key": "ishikawa",
+        "point_name_ja": "金沢"
+    },
+    {
+        "point_id": "56276",
+        "point_key": "komatsu",
+        "pref_key": "ishikawa",
+        "point_name_ja": "小松"
+    },
+    {
+        "point_id": "56286",
+        "point_key": "hakusan-kawachi",
+        "pref_key": "ishikawa",
+        "point_name_ja": "白山河内"
+    },
+    {
+        "point_id": "56301",
+        "point_key": "kaga-nakatsuhara",
+        "pref_key": "ishikawa",
+        "point_name_ja": "加賀中津原"
+    },
+    {
+        "point_id": "57001",
+        "point_key": "mikuni",
+        "pref_key": "fukui",
+        "point_name_ja": "三国"
+    },
+    {
+        "point_id": "57051",
+        "point_key": "koshino",
+        "pref_key": "fukui",
+        "point_name_ja": "越廼"
+    },
+    {
+        "point_id": "57066",
+        "point_key": "fukui",
+        "pref_key": "fukui",
+        "point_name_ja": "福井"
+    },
+    {
+        "point_id": "57082",
+        "point_key": "katsuyama",
+        "pref_key": "fukui",
+        "point_name_ja": "勝山"
+    },
+    {
+        "point_id": "57121",
+        "point_key": "ono",
+        "pref_key": "fukui",
+        "point_name_ja": "大野"
+    },
+    {
+        "point_id": "57206",
+        "point_key": "imajo",
+        "pref_key": "fukui",
+        "point_name_ja": "今庄"
+    },
+    {
+        "point_id": "57248",
+        "point_key": "tsuruga",
+        "pref_key": "fukui",
+        "point_name_ja": "敦賀"
+    },
+    {
+        "point_id": "57286",
+        "point_key": "mihama",
+        "pref_key": "fukui",
+        "point_name_ja": "美浜"
+    },
+    {
+        "point_id": "57317",
+        "point_key": "obama",
+        "pref_key": "fukui",
+        "point_name_ja": "小浜"
+    },
+    {
+        "point_id": "60051",
+        "point_key": "imazu",
+        "pref_key": "shiga",
+        "point_name_ja": "今津"
+    },
+    {
+        "point_id": "60061",
+        "point_key": "nagahama",
+        "pref_key": "shiga",
+        "point_name_ja": "長浜"
+    },
+    {
+        "point_id": "60102",
+        "point_key": "maibara",
+        "pref_key": "shiga",
+        "point_name_ja": "米原"
+    },
+    {
+        "point_id": "60116",
+        "point_key": "minamikomatsu",
+        "pref_key": "shiga",
+        "point_name_ja": "南小松"
+    },
+    {
+        "point_id": "60131",
+        "point_key": "hikone",
+        "pref_key": "shiga",
+        "point_name_ja": "彦根"
+    },
+    {
+        "point_id": "60196",
+        "point_key": "higashiomi",
+        "pref_key": "shiga",
+        "point_name_ja": "東近江"
+    },
+    {
+        "point_id": "60216",
+        "point_key": "otsu",
+        "pref_key": "shiga",
+        "point_name_ja": "大津"
+    },
+    {
+        "point_id": "60226",
+        "point_key": "shigaraki",
+        "pref_key": "shiga",
+        "point_name_ja": "信楽"
+    },
+    {
+        "point_id": "60236",
+        "point_key": "tsuchiyama",
+        "pref_key": "shiga",
+        "point_name_ja": "土山"
+    },
+    {
+        "point_id": "61001",
+        "point_key": "taiza",
+        "pref_key": "kyoto",
+        "point_name_ja": "間人"
+    },
+    {
+        "point_id": "61076",
+        "point_key": "miyazu",
+        "pref_key": "kyoto",
+        "point_name_ja": "宮津"
+    },
+    {
+        "point_id": "61111",
+        "point_key": "maizuru",
+        "pref_key": "kyoto",
+        "point_name_ja": "舞鶴"
+    },
+    {
+        "point_id": "61187",
+        "point_key": "fukuchiyama",
+        "pref_key": "kyoto",
+        "point_name_ja": "福知山"
+    },
+    {
+        "point_id": "61206",
+        "point_key": "miyama",
+        "pref_key": "kyoto",
+        "point_name_ja": "美山"
+    },
+    {
+        "point_id": "61242",
+        "point_key": "sonobe",
+        "pref_key": "kyoto",
+        "point_name_ja": "園部"
+    },
+    {
+        "point_id": "61286",
+        "point_key": "kyoto",
+        "pref_key": "kyoto",
+        "point_name_ja": "京都"
+    },
+    {
+        "point_id": "61326",
+        "point_key": "kyotanabe",
+        "pref_key": "kyoto",
+        "point_name_ja": "京田辺"
+    },
+    {
+        "point_id": "62016",
+        "point_key": "nose",
+        "pref_key": "osaka",
+        "point_name_ja": "能勢"
+    },
+    {
+        "point_id": "62046",
+        "point_key": "hirakata",
+        "pref_key": "osaka",
+        "point_name_ja": "枚方"
+    },
+    {
+        "point_id": "62078",
+        "point_key": "osaka",
+        "pref_key": "osaka",
+        "point_name_ja": "大阪"
+    },
+    {
+        "point_id": "62081",
+        "point_key": "ikomayama",
+        "pref_key": "osaka",
+        "point_name_ja": "生駒山"
+    },
+    {
+        "point_id": "62091",
+        "point_key": "sakai",
+        "pref_key": "osaka",
+        "point_name_ja": "堺"
+    },
+    {
+        "point_id": "62131",
+        "point_key": "kumatori",
+        "pref_key": "osaka",
+        "point_name_ja": "熊取"
+    },
+    {
+        "point_id": "63016",
+        "point_key": "kasumi",
+        "pref_key": "hyogo",
+        "point_name_ja": "香住"
+    },
+    {
+        "point_id": "63051",
+        "point_key": "toyo-oka",
+        "pref_key": "hyogo",
+        "point_name_ja": "豊岡"
+    },
+    {
+        "point_id": "63071",
+        "point_key": "uwanokogen",
+        "pref_key": "hyogo",
+        "point_name_ja": "兎和野高原"
+    },
+    {
+        "point_id": "63121",
+        "point_key": "wadayama",
+        "pref_key": "hyogo",
+        "point_name_ja": "和田山"
+    },
+    {
+        "point_id": "63201",
+        "point_key": "ikuno",
+        "pref_key": "hyogo",
+        "point_name_ja": "生野"
+    },
+    {
+        "point_id": "63216",
+        "point_key": "kaibara",
+        "pref_key": "hyogo",
+        "point_name_ja": "柏原"
+    },
+    {
+        "point_id": "63251",
+        "point_key": "ichinomiya",
+        "pref_key": "hyogo",
+        "point_name_ja": "一宮"
+    },
+    {
+        "point_id": "63321",
+        "point_key": "fukusaki",
+        "pref_key": "hyogo",
+        "point_name_ja": "福崎"
+    },
+    {
+        "point_id": "63331",
+        "point_key": "nishiwaki",
+        "pref_key": "hyogo",
+        "point_name_ja": "西脇"
+    },
+    {
+        "point_id": "63366",
+        "point_key": "kamigori",
+        "pref_key": "hyogo",
+        "point_name_ja": "上郡"
+    },
+    {
+        "point_id": "63383",
+        "point_key": "himeji",
+        "pref_key": "hyogo",
+        "point_name_ja": "姫路"
+    },
+    {
+        "point_id": "63411",
+        "point_key": "sanda",
+        "pref_key": "hyogo",
+        "point_name_ja": "三田"
+    },
+    {
+        "point_id": "63461",
+        "point_key": "miki",
+        "pref_key": "hyogo",
+        "point_name_ja": "三木"
+    },
+    {
+        "point_id": "63491",
+        "point_key": "ieshima",
+        "pref_key": "hyogo",
+        "point_name_ja": "家島"
+    },
+    {
+        "point_id": "63496",
+        "point_key": "akashi",
+        "pref_key": "hyogo",
+        "point_name_ja": "明石"
+    },
+    {
+        "point_id": "63518",
+        "point_key": "kobe",
+        "pref_key": "hyogo",
+        "point_name_ja": "神戸"
+    },
+    {
+        "point_id": "63551",
+        "point_key": "gunge",
+        "pref_key": "hyogo",
+        "point_name_ja": "郡家"
+    },
+    {
+        "point_id": "63571",
+        "point_key": "sumoto",
+        "pref_key": "hyogo",
+        "point_name_ja": "洲本"
+    },
+    {
+        "point_id": "63588",
+        "point_key": "nandan",
+        "pref_key": "hyogo",
+        "point_name_ja": "南淡"
+    },
+    {
+        "point_id": "64036",
+        "point_key": "nara",
+        "pref_key": "nara",
+        "point_name_ja": "奈良"
+    },
+    {
+        "point_id": "64041",
+        "point_key": "hari",
+        "pref_key": "nara",
+        "point_name_ja": "針"
+    },
+    {
+        "point_id": "64101",
+        "point_key": "ouda",
+        "pref_key": "nara",
+        "point_name_ja": "大宇陀"
+    },
+    {
+        "point_id": "64127",
+        "point_key": "gojo",
+        "pref_key": "nara",
+        "point_name_ja": "五條"
+    },
+    {
+        "point_id": "64206",
+        "point_key": "kamikitayama",
+        "pref_key": "nara",
+        "point_name_ja": "上北山"
+    },
+    {
+        "point_id": "64227",
+        "point_key": "kazeya",
+        "pref_key": "nara",
+        "point_name_ja": "風屋"
+    },
+    {
+        "point_id": "65026",
+        "point_key": "katsuragi",
+        "pref_key": "wakayama",
+        "point_name_ja": "かつらぎ"
+    },
+    {
+        "point_id": "65036",
+        "point_key": "tomogashima",
+        "pref_key": "wakayama",
+        "point_name_ja": "友ケ島"
+    },
+    {
+        "point_id": "65042",
+        "point_key": "wakayama",
+        "pref_key": "wakayama",
+        "point_name_ja": "和歌山"
+    },
+    {
+        "point_id": "65061",
+        "point_key": "koyasan",
+        "pref_key": "wakayama",
+        "point_name_ja": "高野山"
+    },
+    {
+        "point_id": "65121",
+        "point_key": "shimizu",
+        "pref_key": "wakayama",
+        "point_name_ja": "清水"
+    },
+    {
+        "point_id": "65162",
+        "point_key": "ryujin",
+        "pref_key": "wakayama",
+        "point_name_ja": "龍神"
+    },
+    {
+        "point_id": "65201",
+        "point_key": "kawabe",
+        "pref_key": "wakayama",
+        "point_name_ja": "川辺"
+    },
+    {
+        "point_id": "65256",
+        "point_key": "kurisugawa",
+        "pref_key": "wakayama",
+        "point_name_ja": "栗栖川"
+    },
+    {
+        "point_id": "65276",
+        "point_key": "shingu",
+        "pref_key": "wakayama",
+        "point_name_ja": "新宮"
+    },
+    {
+        "point_id": "65306",
+        "point_key": "nishikawa",
+        "pref_key": "wakayama",
+        "point_name_ja": "西川"
+    },
+    {
+        "point_id": "65356",
+        "point_key": "shionomisaki",
+        "pref_key": "wakayama",
+        "point_name_ja": "潮岬"
+    },
+    {
+        "point_id": "66046",
+        "point_key": "kaminagata",
+        "pref_key": "okayama",
+        "point_name_ja": "上長田"
+    },
+    {
+        "point_id": "66091",
+        "point_key": "chiya",
+        "pref_key": "okayama",
+        "point_name_ja": "千屋"
+    },
+    {
+        "point_id": "66127",
+        "point_key": "nagi",
+        "pref_key": "okayama",
+        "point_name_ja": "奈義"
+    },
+    {
+        "point_id": "66136",
+        "point_key": "imaoka",
+        "pref_key": "okayama",
+        "point_name_ja": "今岡"
+    },
+    {
+        "point_id": "66171",
+        "point_key": "kuse",
+        "pref_key": "okayama",
+        "point_name_ja": "久世"
+    },
+    {
+        "point_id": "66186",
+        "point_key": "tsuyama",
+        "pref_key": "okayama",
+        "point_name_ja": "津山"
+    },
+    {
+        "point_id": "66221",
+        "point_key": "niimi",
+        "pref_key": "okayama",
+        "point_name_ja": "新見"
+    },
+    {
+        "point_id": "66296",
+        "point_key": "fukuwatari",
+        "pref_key": "okayama",
+        "point_name_ja": "福渡"
+    },
+    {
+        "point_id": "66306",
+        "point_key": "wake",
+        "pref_key": "okayama",
+        "point_name_ja": "和気"
+    },
+    {
+        "point_id": "66336",
+        "point_key": "takahashi",
+        "pref_key": "okayama",
+        "point_name_ja": "高梁"
+    },
+    {
+        "point_id": "66408",
+        "point_key": "okayama",
+        "pref_key": "okayama",
+        "point_name_ja": "岡山"
+    },
+    {
+        "point_id": "66421",
+        "point_key": "mushiage",
+        "pref_key": "okayama",
+        "point_name_ja": "虫明"
+    },
+    {
+        "point_id": "66446",
+        "point_key": "kurashiki",
+        "pref_key": "okayama",
+        "point_name_ja": "倉敷"
+    },
+    {
+        "point_id": "66481",
+        "point_key": "kasaoka",
+        "pref_key": "okayama",
+        "point_name_ja": "笠岡"
+    },
+    {
+        "point_id": "66501",
+        "point_key": "tamano",
+        "pref_key": "okayama",
+        "point_name_ja": "玉野"
+    },
+    {
+        "point_id": "67016",
+        "point_key": "takano",
+        "pref_key": "hiroshima",
+        "point_name_ja": "高野"
+    },
+    {
+        "point_id": "67106",
+        "point_key": "miyoshi",
+        "pref_key": "hiroshima",
+        "point_name_ja": "三次"
+    },
+    {
+        "point_id": "67116",
+        "point_key": "shobara",
+        "pref_key": "hiroshima",
+        "point_name_ja": "庄原"
+    },
+    {
+        "point_id": "67151",
+        "point_key": "oasa",
+        "pref_key": "hiroshima",
+        "point_name_ja": "大朝"
+    },
+    {
+        "point_id": "67191",
+        "point_key": "yuki",
+        "pref_key": "hiroshima",
+        "point_name_ja": "油木"
+    },
+    {
+        "point_id": "67212",
+        "point_key": "kake",
+        "pref_key": "hiroshima",
+        "point_name_ja": "加計"
+    },
+    {
+        "point_id": "67292",
+        "point_key": "miiri",
+        "pref_key": "hiroshima",
+        "point_name_ja": "三入"
+    },
+    {
+        "point_id": "67316",
+        "point_key": "sera",
+        "pref_key": "hiroshima",
+        "point_name_ja": "世羅"
+    },
+    {
+        "point_id": "67326",
+        "point_key": "fuchu",
+        "pref_key": "hiroshima",
+        "point_name_ja": "府中"
+    },
+    {
+        "point_id": "67376",
+        "point_key": "higashihiroshima",
+        "pref_key": "hiroshima",
+        "point_name_ja": "東広島"
+    },
+    {
+        "point_id": "67401",
+        "point_key": "fukuyama",
+        "pref_key": "hiroshima",
+        "point_name_ja": "福山"
+    },
+    {
+        "point_id": "67421",
+        "point_key": "hatsukaichitsuta",
+        "pref_key": "hiroshima",
+        "point_name_ja": "廿日市津田"
+    },
+    {
+        "point_id": "67437",
+        "point_key": "hiroshima",
+        "pref_key": "hiroshima",
+        "point_name_ja": "広島"
+    },
+    {
+        "point_id": "67461",
+        "point_key": "takehara",
+        "pref_key": "hiroshima",
+        "point_name_ja": "竹原"
+    },
+    {
+        "point_id": "67471",
+        "point_key": "ikuchijima",
+        "pref_key": "hiroshima",
+        "point_name_ja": "生口島"
+    },
+    {
+        "point_id": "67496",
+        "point_key": "otake",
+        "pref_key": "hiroshima",
+        "point_name_ja": "大竹"
+    },
+    {
+        "point_id": "67511",
+        "point_key": "kure",
+        "pref_key": "hiroshima",
+        "point_name_ja": "呉"
+    },
+    {
+        "point_id": "67576",
+        "point_key": "kure-shi-kamagari",
+        "pref_key": "hiroshima",
+        "point_name_ja": "呉市蒲刈"
+    },
+    {
+        "point_id": "68022",
+        "point_key": "saigo",
+        "pref_key": "shimane",
+        "point_name_ja": "西郷"
+    },
+    {
+        "point_id": "68056",
+        "point_key": "ama",
+        "pref_key": "shimane",
+        "point_name_ja": "海士"
+    },
+    {
+        "point_id": "68091",
+        "point_key": "kashima",
+        "pref_key": "shimane",
+        "point_name_ja": "鹿島"
+    },
+    {
+        "point_id": "68132",
+        "point_key": "matsue",
+        "pref_key": "shimane",
+        "point_name_ja": "松江"
+    },
+    {
+        "point_id": "68156",
+        "point_key": "izumo",
+        "pref_key": "shimane",
+        "point_name_ja": "出雲"
+    },
+    {
+        "point_id": "68246",
+        "point_key": "oda",
+        "pref_key": "shimane",
+        "point_name_ja": "大田"
+    },
+    {
+        "point_id": "68261",
+        "point_key": "kakeya",
+        "pref_key": "shimane",
+        "point_name_ja": "掛合"
+    },
+    {
+        "point_id": "68276",
+        "point_key": "yokota",
+        "pref_key": "shimane",
+        "point_name_ja": "横田"
+    },
+    {
+        "point_id": "68306",
+        "point_key": "akana",
+        "pref_key": "shimane",
+        "point_name_ja": "赤名"
+    },
+    {
+        "point_id": "68351",
+        "point_key": "kawamoto",
+        "pref_key": "shimane",
+        "point_name_ja": "川本"
+    },
+    {
+        "point_id": "68376",
+        "point_key": "hamada",
+        "pref_key": "shimane",
+        "point_name_ja": "浜田"
+    },
+    {
+        "point_id": "68401",
+        "point_key": "mizuho",
+        "pref_key": "shimane",
+        "point_name_ja": "瑞穂"
+    },
+    {
+        "point_id": "68431",
+        "point_key": "yasaka",
+        "pref_key": "shimane",
+        "point_name_ja": "弥栄"
+    },
+    {
+        "point_id": "68462",
+        "point_key": "masuda",
+        "pref_key": "shimane",
+        "point_name_ja": "益田"
+    },
+    {
+        "point_id": "68516",
+        "point_key": "tsuwano",
+        "pref_key": "shimane",
+        "point_name_ja": "津和野"
+    },
+    {
+        "point_id": "68541",
+        "point_key": "yoshika",
+        "pref_key": "shimane",
+        "point_name_ja": "吉賀"
+    },
+    {
+        "point_id": "69006",
+        "point_key": "sakai",
+        "pref_key": "tottori",
+        "point_name_ja": "境"
+    },
+    {
+        "point_id": "69021",
+        "point_key": "shiotsu",
+        "pref_key": "tottori",
+        "point_name_ja": "塩津"
+    },
+    {
+        "point_id": "69041",
+        "point_key": "aoya",
+        "pref_key": "tottori",
+        "point_name_ja": "青谷"
+    },
+    {
+        "point_id": "69061",
+        "point_key": "iwai",
+        "pref_key": "tottori",
+        "point_name_ja": "岩井"
+    },
+    {
+        "point_id": "69076",
+        "point_key": "yonago",
+        "pref_key": "tottori",
+        "point_name_ja": "米子"
+    },
+    {
+        "point_id": "69101",
+        "point_key": "kurayoshi",
+        "pref_key": "tottori",
+        "point_name_ja": "倉吉"
+    },
+    {
+        "point_id": "69122",
+        "point_key": "tottori",
+        "pref_key": "tottori",
+        "point_name_ja": "鳥取"
+    },
+    {
+        "point_id": "69246",
+        "point_key": "chizu",
+        "pref_key": "tottori",
+        "point_name_ja": "智頭"
+    },
+    {
+        "point_id": "69271",
+        "point_key": "cyaya",
+        "pref_key": "tottori",
+        "point_name_ja": "茶屋"
+    },
+    {
+        "point_id": "81011",
+        "point_key": "susa",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "須佐"
+    },
+    {
+        "point_id": "81071",
+        "point_key": "hagi",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "萩"
+    },
+    {
+        "point_id": "81116",
+        "point_key": "yuya",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "油谷"
+    },
+    {
+        "point_id": "81151",
+        "point_key": "tokusa",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "徳佐"
+    },
+    {
+        "point_id": "81196",
+        "point_key": "akiyoshidai",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "秋吉台"
+    },
+    {
+        "point_id": "81231",
+        "point_key": "hirose",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "広瀬"
+    },
+    {
+        "point_id": "81266",
+        "point_key": "toyota",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "豊田"
+    },
+    {
+        "point_id": "81286",
+        "point_key": "yamaguchi",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "山口"
+    },
+    {
+        "point_id": "81321",
+        "point_key": "iwakuni",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "岩国"
+    },
+    {
+        "point_id": "81371",
+        "point_key": "hofu",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "防府"
+    },
+    {
+        "point_id": "81386",
+        "point_key": "kudamatsu",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "下松"
+    },
+    {
+        "point_id": "81397",
+        "point_key": "kuga",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "玖珂"
+    },
+    {
+        "point_id": "81428",
+        "point_key": "shimonoseki",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "下関"
+    },
+    {
+        "point_id": "81481",
+        "point_key": "yanai",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "柳井"
+    },
+    {
+        "point_id": "81486",
+        "point_key": "agenosho",
+        "pref_key": "yamaguchi",
+        "point_name_ja": "安下庄"
+    },
+    {
+        "point_id": "71066",
+        "point_key": "ikeda",
+        "pref_key": "tokushima",
+        "point_name_ja": "池田"
+    },
+    {
+        "point_id": "71087",
+        "point_key": "anabuki",
+        "pref_key": "tokushima",
+        "point_name_ja": "穴吹"
+    },
+    {
+        "point_id": "71106",
+        "point_key": "tokushima",
+        "pref_key": "tokushima",
+        "point_name_ja": "徳島"
+    },
+    {
+        "point_id": "71191",
+        "point_key": "kyojo",
+        "pref_key": "tokushima",
+        "point_name_ja": "京上"
+    },
+    {
+        "point_id": "71231",
+        "point_key": "kamoda",
+        "pref_key": "tokushima",
+        "point_name_ja": "蒲生田"
+    },
+    {
+        "point_id": "71251",
+        "point_key": "kito",
+        "pref_key": "tokushima",
+        "point_name_ja": "木頭"
+    },
+    {
+        "point_id": "71266",
+        "point_key": "hiwasa",
+        "pref_key": "tokushima",
+        "point_name_ja": "日和佐"
+    },
+    {
+        "point_id": "71291",
+        "point_key": "kaiyo",
+        "pref_key": "tokushima",
+        "point_name_ja": "海陽"
+    },
+    {
+        "point_id": "72061",
+        "point_key": "uchinomi",
+        "pref_key": "kagawa",
+        "point_name_ja": "内海"
+    },
+    {
+        "point_id": "72086",
+        "point_key": "takamatsu",
+        "pref_key": "kagawa",
+        "point_name_ja": "高松"
+    },
+    {
+        "point_id": "72111",
+        "point_key": "tadotsu",
+        "pref_key": "kagawa",
+        "point_name_ja": "多度津"
+    },
+    {
+        "point_id": "72121",
+        "point_key": "takinomiya",
+        "pref_key": "kagawa",
+        "point_name_ja": "滝宮"
+    },
+    {
+        "point_id": "72146",
+        "point_key": "hiketa",
+        "pref_key": "kagawa",
+        "point_name_ja": "引田"
+    },
+    {
+        "point_id": "72161",
+        "point_key": "saita",
+        "pref_key": "kagawa",
+        "point_name_ja": "財田"
+    },
+    {
+        "point_id": "73001",
+        "point_key": "omishima",
+        "pref_key": "ehime",
+        "point_name_ja": "大三島"
+    },
+    {
+        "point_id": "73076",
+        "point_key": "imabari",
+        "pref_key": "ehime",
+        "point_name_ja": "今治"
+    },
+    {
+        "point_id": "73126",
+        "point_key": "saijo",
+        "pref_key": "ehime",
+        "point_name_ja": "西条"
+    },
+    {
+        "point_id": "73141",
+        "point_key": "niihama",
+        "pref_key": "ehime",
+        "point_name_ja": "新居浜"
+    },
+    {
+        "point_id": "73151",
+        "point_key": "shikoku-chuo",
+        "pref_key": "ehime",
+        "point_name_ja": "四国中央"
+    },
+    {
+        "point_id": "73166",
+        "point_key": "matsuyama",
+        "pref_key": "ehime",
+        "point_name_ja": "松山"
+    },
+    {
+        "point_id": "73256",
+        "point_key": "nagahama",
+        "pref_key": "ehime",
+        "point_name_ja": "長浜"
+    },
+    {
+        "point_id": "73276",
+        "point_key": "kuma",
+        "pref_key": "ehime",
+        "point_name_ja": "久万"
+    },
+    {
+        "point_id": "73306",
+        "point_key": "ozu",
+        "pref_key": "ehime",
+        "point_name_ja": "大洲"
+    },
+    {
+        "point_id": "73341",
+        "point_key": "seto",
+        "pref_key": "ehime",
+        "point_name_ja": "瀬戸"
+    },
+    {
+        "point_id": "73406",
+        "point_key": "uwa",
+        "pref_key": "ehime",
+        "point_name_ja": "宇和"
+    },
+    {
+        "point_id": "73442",
+        "point_key": "uwajima",
+        "pref_key": "ehime",
+        "point_name_ja": "宇和島"
+    },
+    {
+        "point_id": "73446",
+        "point_key": "chikanaga",
+        "pref_key": "ehime",
+        "point_name_ja": "近永"
+    },
+    {
+        "point_id": "73516",
+        "point_key": "misho",
+        "pref_key": "ehime",
+        "point_name_ja": "御荘"
+    },
+    {
+        "point_id": "74056",
+        "point_key": "hongawa",
+        "pref_key": "kochi",
+        "point_name_ja": "本川"
+    },
+    {
+        "point_id": "74071",
+        "point_key": "motoyama",
+        "pref_key": "kochi",
+        "point_name_ja": "本山"
+    },
+    {
+        "point_id": "74136",
+        "point_key": "odochi",
+        "pref_key": "kochi",
+        "point_name_ja": "大栃"
+    },
+    {
+        "point_id": "74182",
+        "point_key": "kochi",
+        "pref_key": "kochi",
+        "point_name_ja": "高知"
+    },
+    {
+        "point_id": "74187",
+        "point_key": "gomen",
+        "pref_key": "kochi",
+        "point_name_ja": "後免"
+    },
+    {
+        "point_id": "74271",
+        "point_key": "aki",
+        "pref_key": "kochi",
+        "point_name_ja": "安芸"
+    },
+    {
+        "point_id": "74296",
+        "point_key": "yusuhara",
+        "pref_key": "kochi",
+        "point_name_ja": "梼原"
+    },
+    {
+        "point_id": "74311",
+        "point_key": "susaki",
+        "pref_key": "kochi",
+        "point_name_ja": "須崎"
+    },
+    {
+        "point_id": "74361",
+        "point_key": "kubokawa",
+        "pref_key": "kochi",
+        "point_name_ja": "窪川"
+    },
+    {
+        "point_id": "74372",
+        "point_key": "murotomisaki",
+        "pref_key": "kochi",
+        "point_name_ja": "室戸岬"
+    },
+    {
+        "point_id": "74381",
+        "point_key": "ekawasaki",
+        "pref_key": "kochi",
+        "point_name_ja": "江川崎"
+    },
+    {
+        "point_id": "74436",
+        "point_key": "saga",
+        "pref_key": "kochi",
+        "point_name_ja": "佐賀"
+    },
+    {
+        "point_id": "74447",
+        "point_key": "sukumo",
+        "pref_key": "kochi",
+        "point_name_ja": "宿毛"
+    },
+    {
+        "point_id": "74456",
+        "point_key": "nakamura",
+        "pref_key": "kochi",
+        "point_name_ja": "中村"
+    },
+    {
+        "point_id": "74516",
+        "point_key": "shimizu",
+        "pref_key": "kochi",
+        "point_name_ja": "清水"
+    },
+    {
+        "point_id": "82046",
+        "point_key": "munakata",
+        "pref_key": "fukuoka",
+        "point_name_ja": "宗像"
+    },
+    {
+        "point_id": "82056",
+        "point_key": "yahata",
+        "pref_key": "fukuoka",
+        "point_name_ja": "八幡"
+    },
+    {
+        "point_id": "82101",
+        "point_key": "yukuhashi",
+        "pref_key": "fukuoka",
+        "point_name_ja": "行橋"
+    },
+    {
+        "point_id": "82136",
+        "point_key": "iizuka",
+        "pref_key": "fukuoka",
+        "point_name_ja": "飯塚"
+    },
+    {
+        "point_id": "82171",
+        "point_key": "maebaru",
+        "pref_key": "fukuoka",
+        "point_name_ja": "前原"
+    },
+    {
+        "point_id": "82182",
+        "point_key": "fukuoka",
+        "pref_key": "fukuoka",
+        "point_name_ja": "福岡"
+    },
+    {
+        "point_id": "82191",
+        "point_key": "dazaifu",
+        "pref_key": "fukuoka",
+        "point_name_ja": "太宰府"
+    },
+    {
+        "point_id": "82206",
+        "point_key": "soeda",
+        "pref_key": "fukuoka",
+        "point_name_ja": "添田"
+    },
+    {
+        "point_id": "82261",
+        "point_key": "asakura",
+        "pref_key": "fukuoka",
+        "point_name_ja": "朝倉"
+    },
+    {
+        "point_id": "82306",
+        "point_key": "kurume",
+        "pref_key": "fukuoka",
+        "point_name_ja": "久留米"
+    },
+    {
+        "point_id": "82317",
+        "point_key": "kurogi",
+        "pref_key": "fukuoka",
+        "point_name_ja": "黒木"
+    },
+    {
+        "point_id": "82361",
+        "point_key": "omuta",
+        "pref_key": "fukuoka",
+        "point_name_ja": "大牟田"
+    },
+    {
+        "point_id": "83021",
+        "point_key": "kunimi",
+        "pref_key": "oita",
+        "point_name_ja": "国見"
+    },
+    {
+        "point_id": "83051",
+        "point_key": "nakatsu",
+        "pref_key": "oita",
+        "point_name_ja": "中津"
+    },
+    {
+        "point_id": "83061",
+        "point_key": "bungotakada",
+        "pref_key": "oita",
+        "point_name_ja": "豊後高田"
+    },
+    {
+        "point_id": "83106",
+        "point_key": "innai",
+        "pref_key": "oita",
+        "point_name_ja": "院内"
+    },
+    {
+        "point_id": "83121",
+        "point_key": "kitsuki",
+        "pref_key": "oita",
+        "point_name_ja": "杵築"
+    },
+    {
+        "point_id": "83137",
+        "point_key": "hita",
+        "pref_key": "oita",
+        "point_name_ja": "日田"
+    },
+    {
+        "point_id": "83191",
+        "point_key": "kusu",
+        "pref_key": "oita",
+        "point_name_ja": "玖珠"
+    },
+    {
+        "point_id": "83201",
+        "point_key": "yufuin",
+        "pref_key": "oita",
+        "point_name_ja": "湯布院"
+    },
+    {
+        "point_id": "83216",
+        "point_key": "oita",
+        "pref_key": "oita",
+        "point_name_ja": "大分"
+    },
+    {
+        "point_id": "83341",
+        "point_key": "inukai",
+        "pref_key": "oita",
+        "point_name_ja": "犬飼"
+    },
+    {
+        "point_id": "83371",
+        "point_key": "taketa",
+        "pref_key": "oita",
+        "point_name_ja": "竹田"
+    },
+    {
+        "point_id": "83401",
+        "point_key": "saiki",
+        "pref_key": "oita",
+        "point_name_ja": "佐伯"
+    },
+    {
+        "point_id": "83431",
+        "point_key": "ume",
+        "pref_key": "oita",
+        "point_name_ja": "宇目"
+    },
+    {
+        "point_id": "83476",
+        "point_key": "kamae",
+        "pref_key": "oita",
+        "point_name_ja": "蒲江"
+    },
+    {
+        "point_id": "84012",
+        "point_key": "waniura",
+        "pref_key": "nagasaki",
+        "point_name_ja": "鰐浦"
+    },
+    {
+        "point_id": "84072",
+        "point_key": "izuhara",
+        "pref_key": "nagasaki",
+        "point_name_ja": "厳原"
+    },
+    {
+        "point_id": "84121",
+        "point_key": "ashibe",
+        "pref_key": "nagasaki",
+        "point_name_ja": "芦辺"
+    },
+    {
+        "point_id": "84171",
+        "point_key": "hirado",
+        "pref_key": "nagasaki",
+        "point_name_ja": "平戸"
+    },
+    {
+        "point_id": "84183",
+        "point_key": "matsuura",
+        "pref_key": "nagasaki",
+        "point_name_ja": "松浦"
+    },
+    {
+        "point_id": "84266",
+        "point_key": "sasebo",
+        "pref_key": "nagasaki",
+        "point_name_ja": "佐世保"
+    },
+    {
+        "point_id": "84306",
+        "point_key": "saikai",
+        "pref_key": "nagasaki",
+        "point_name_ja": "西海"
+    },
+    {
+        "point_id": "84341",
+        "point_key": "arikawa",
+        "pref_key": "nagasaki",
+        "point_name_ja": "有川"
+    },
+    {
+        "point_id": "84496",
+        "point_key": "nagasaki",
+        "pref_key": "nagasaki",
+        "point_name_ja": "長崎"
+    },
+    {
+        "point_id": "84519",
+        "point_key": "unzendake",
+        "pref_key": "nagasaki",
+        "point_name_ja": "雲仙岳"
+    },
+    {
+        "point_id": "84523",
+        "point_key": "shimabara",
+        "pref_key": "nagasaki",
+        "point_name_ja": "島原"
+    },
+    {
+        "point_id": "84536",
+        "point_key": "fukue",
+        "pref_key": "nagasaki",
+        "point_name_ja": "福江"
+    },
+    {
+        "point_id": "84561",
+        "point_key": "kuchinotsu",
+        "pref_key": "nagasaki",
+        "point_name_ja": "口之津"
+    },
+    {
+        "point_id": "84597",
+        "point_key": "wakimisaki",
+        "pref_key": "nagasaki",
+        "point_name_ja": "脇岬"
+    },
+    {
+        "point_id": "85033",
+        "point_key": "karatsu",
+        "pref_key": "saga",
+        "point_name_ja": "唐津"
+    },
+    {
+        "point_id": "85116",
+        "point_key": "imari",
+        "pref_key": "saga",
+        "point_name_ja": "伊万里"
+    },
+    {
+        "point_id": "85142",
+        "point_key": "saga",
+        "pref_key": "saga",
+        "point_name_ja": "佐賀"
+    },
+    {
+        "point_id": "85161",
+        "point_key": "ureshino",
+        "pref_key": "saga",
+        "point_name_ja": "嬉野"
+    },
+    {
+        "point_id": "85166",
+        "point_key": "shiroishi",
+        "pref_key": "saga",
+        "point_name_ja": "白石"
+    },
+    {
+        "point_id": "86006",
+        "point_key": "kahoku",
+        "pref_key": "kumamoto",
+        "point_name_ja": "鹿北"
+    },
+    {
+        "point_id": "86066",
+        "point_key": "minamioguni",
+        "pref_key": "kumamoto",
+        "point_name_ja": "南小国"
+    },
+    {
+        "point_id": "86086",
+        "point_key": "taimei",
+        "pref_key": "kumamoto",
+        "point_name_ja": "岱明"
+    },
+    {
+        "point_id": "86101",
+        "point_key": "kikuchi",
+        "pref_key": "kumamoto",
+        "point_name_ja": "菊池"
+    },
+    {
+        "point_id": "86111",
+        "point_key": "aso-otohime",
+        "pref_key": "kumamoto",
+        "point_name_ja": "阿蘇乙姫"
+    },
+    {
+        "point_id": "86141",
+        "point_key": "kumamoto",
+        "pref_key": "kumamoto",
+        "point_name_ja": "熊本"
+    },
+    {
+        "point_id": "86157",
+        "point_key": "minamiaso",
+        "pref_key": "kumamoto",
+        "point_name_ja": "南阿蘇"
+    },
+    {
+        "point_id": "86161",
+        "point_key": "takamori",
+        "pref_key": "kumamoto",
+        "point_name_ja": "高森"
+    },
+    {
+        "point_id": "86216",
+        "point_key": "misumi",
+        "pref_key": "kumamoto",
+        "point_name_ja": "三角"
+    },
+    {
+        "point_id": "86236",
+        "point_key": "kosa",
+        "pref_key": "kumamoto",
+        "point_name_ja": "甲佐"
+    },
+    {
+        "point_id": "86271",
+        "point_key": "matsushima",
+        "pref_key": "kumamoto",
+        "point_name_ja": "松島"
+    },
+    {
+        "point_id": "86316",
+        "point_key": "hondo",
+        "pref_key": "kumamoto",
+        "point_name_ja": "本渡"
+    },
+    {
+        "point_id": "86336",
+        "point_key": "yatsushiro",
+        "pref_key": "kumamoto",
+        "point_name_ja": "八代"
+    },
+    {
+        "point_id": "86451",
+        "point_key": "minamata",
+        "pref_key": "kumamoto",
+        "point_name_ja": "水俣"
+    },
+    {
+        "point_id": "86467",
+        "point_key": "hitoyoshi",
+        "pref_key": "kumamoto",
+        "point_name_ja": "人吉"
+    },
+    {
+        "point_id": "86477",
+        "point_key": "ue",
+        "pref_key": "kumamoto",
+        "point_name_ja": "上"
+    },
+    {
+        "point_id": "86491",
+        "point_key": "ushibuka",
+        "pref_key": "kumamoto",
+        "point_name_ja": "牛深"
+    },
+    {
+        "point_id": "87041",
+        "point_key": "takachiho",
+        "pref_key": "miyazaki",
+        "point_name_ja": "高千穂"
+    },
+    {
+        "point_id": "87066",
+        "point_key": "furue",
+        "pref_key": "miyazaki",
+        "point_name_ja": "古江"
+    },
+    {
+        "point_id": "87071",
+        "point_key": "kuraoka",
+        "pref_key": "miyazaki",
+        "point_name_ja": "鞍岡"
+    },
+    {
+        "point_id": "87141",
+        "point_key": "nobeoka",
+        "pref_key": "miyazaki",
+        "point_name_ja": "延岡"
+    },
+    {
+        "point_id": "87181",
+        "point_key": "hyuga",
+        "pref_key": "miyazaki",
+        "point_name_ja": "日向"
+    },
+    {
+        "point_id": "87206",
+        "point_key": "mikado",
+        "pref_key": "miyazaki",
+        "point_name_ja": "神門"
+    },
+    {
+        "point_id": "87231",
+        "point_key": "nishi-mera",
+        "pref_key": "miyazaki",
+        "point_name_ja": "西米良"
+    },
+    {
+        "point_id": "87293",
+        "point_key": "takanabe",
+        "pref_key": "miyazaki",
+        "point_name_ja": "高鍋"
+    },
+    {
+        "point_id": "87301",
+        "point_key": "kakuto",
+        "pref_key": "miyazaki",
+        "point_name_ja": "加久藤"
+    },
+    {
+        "point_id": "87331",
+        "point_key": "saito",
+        "pref_key": "miyazaki",
+        "point_name_ja": "西都"
+    },
+    {
+        "point_id": "87352",
+        "point_key": "kobayashi",
+        "pref_key": "miyazaki",
+        "point_name_ja": "小林"
+    },
+    {
+        "point_id": "87376",
+        "point_key": "miyazaki",
+        "pref_key": "miyazaki",
+        "point_name_ja": "宮崎"
+    },
+    {
+        "point_id": "87406",
+        "point_key": "tano",
+        "pref_key": "miyazaki",
+        "point_name_ja": "田野"
+    },
+    {
+        "point_id": "87426",
+        "point_key": "miyakonojo",
+        "pref_key": "miyazaki",
+        "point_name_ja": "都城"
+    },
+    {
+        "point_id": "87492",
+        "point_key": "aburatsu",
+        "pref_key": "miyazaki",
+        "point_name_ja": "油津"
+    },
+    {
+        "point_id": "87501",
+        "point_key": "kushima",
+        "pref_key": "miyazaki",
+        "point_name_ja": "串間"
+    },
+    {
+        "point_id": "88061",
+        "point_key": "akune",
+        "pref_key": "kagoshima",
+        "point_name_ja": "阿久根"
+    },
+    {
+        "point_id": "88081",
+        "point_key": "okuchi",
+        "pref_key": "kagoshima",
+        "point_name_ja": "大口"
+    },
+    {
+        "point_id": "88107",
+        "point_key": "satsumakashiwabaru",
+        "pref_key": "kagoshima",
+        "point_name_ja": "さつま柏原"
+    },
+    {
+        "point_id": "88131",
+        "point_key": "nakakoshiki",
+        "pref_key": "kagoshima",
+        "point_name_ja": "中甑"
+    },
+    {
+        "point_id": "88151",
+        "point_key": "sendai",
+        "pref_key": "kagoshima",
+        "point_name_ja": "川内"
+    },
+    {
+        "point_id": "88261",
+        "point_key": "higashiichiki",
+        "pref_key": "kagoshima",
+        "point_name_ja": "東市来"
+    },
+    {
+        "point_id": "88286",
+        "point_key": "makinohara",
+        "pref_key": "kagoshima",
+        "point_name_ja": "牧之原"
+    },
+    {
+        "point_id": "88317",
+        "point_key": "kagoshima",
+        "pref_key": "kagoshima",
+        "point_name_ja": "鹿児島"
+    },
+    {
+        "point_id": "88331",
+        "point_key": "kihoku",
+        "pref_key": "kagoshima",
+        "point_name_ja": "輝北"
+    },
+    {
+        "point_id": "88371",
+        "point_key": "kaseda",
+        "pref_key": "kagoshima",
+        "point_name_ja": "加世田"
+    },
+    {
+        "point_id": "88406",
+        "point_key": "shibushi",
+        "pref_key": "kagoshima",
+        "point_name_ja": "志布志"
+    },
+    {
+        "point_id": "88432",
+        "point_key": "kiire",
+        "pref_key": "kagoshima",
+        "point_name_ja": "喜入"
+    },
+    {
+        "point_id": "88442",
+        "point_key": "kanoya",
+        "pref_key": "kagoshima",
+        "point_name_ja": "鹿屋"
+    },
+    {
+        "point_id": "88447",
+        "point_key": "kimotsukimaeda",
+        "pref_key": "kagoshima",
+        "point_name_ja": "肝付前田"
+    },
+    {
+        "point_id": "88466",
+        "point_key": "makurazaki",
+        "pref_key": "kagoshima",
+        "point_name_ja": "枕崎"
+    },
+    {
+        "point_id": "88486",
+        "point_key": "ibusuki",
+        "pref_key": "kagoshima",
+        "point_name_ja": "指宿"
+    },
+    {
+        "point_id": "88506",
+        "point_key": "uchinoura",
+        "pref_key": "kagoshima",
+        "point_name_ja": "内之浦"
+    },
+    {
+        "point_id": "88536",
+        "point_key": "tashiro",
+        "pref_key": "kagoshima",
+        "point_name_ja": "田代"
+    },
+    {
+        "point_id": "88612",
+        "point_key": "tanegashima",
+        "pref_key": "kagoshima",
+        "point_name_ja": "種子島"
+    },
+    {
+        "point_id": "88666",
+        "point_key": "kaminaka",
+        "pref_key": "kagoshima",
+        "point_name_ja": "上中"
+    },
+    {
+        "point_id": "88686",
+        "point_key": "yakushima",
+        "pref_key": "kagoshima",
+        "point_name_ja": "屋久島"
+    },
+    {
+        "point_id": "88706",
+        "point_key": "onoaida",
+        "pref_key": "kagoshima",
+        "point_name_ja": "尾之間"
+    },
+    {
+        "point_id": "88736",
+        "point_key": "nakanoshima",
+        "pref_key": "kagoshima",
+        "point_name_ja": "中之島"
+    },
+    {
+        "point_id": "88836",
+        "point_key": "naze",
+        "pref_key": "amami",
+        "point_name_ja": "名瀬"
+    },
+    {
+        "point_id": "88901",
+        "point_key": "koniya",
+        "pref_key": "amami",
+        "point_name_ja": "古仁屋"
+    },
+    {
+        "point_id": "88956",
+        "point_key": "isen",
+        "pref_key": "amami",
+        "point_name_ja": "伊仙"
+    },
+    {
+        "point_id": "88971",
+        "point_key": "okinoerabu",
+        "pref_key": "amami",
+        "point_name_ja": "沖永良部"
+    },
+    {
+        "point_id": "91011",
+        "point_key": "izena",
+        "pref_key": "okinawa",
+        "point_name_ja": "伊是名"
+    },
+    {
+        "point_id": "91021",
+        "point_key": "oku",
+        "pref_key": "okinawa",
+        "point_name_ja": "奥"
+    },
+    {
+        "point_id": "91107",
+        "point_key": "nago",
+        "pref_key": "okinawa",
+        "point_name_ja": "名護"
+    },
+    {
+        "point_id": "91146",
+        "point_key": "kumejima",
+        "pref_key": "okinawa",
+        "point_name_ja": "久米島"
+    },
+    {
+        "point_id": "91166",
+        "point_key": "miyagijima",
+        "pref_key": "okinawa",
+        "point_name_ja": "宮城島"
+    },
+    {
+        "point_id": "91181",
+        "point_key": "tokashiki",
+        "pref_key": "okinawa",
+        "point_name_ja": "渡嘉敷"
+    },
+    {
+        "point_id": "91197",
+        "point_key": "naha",
+        "pref_key": "okinawa",
+        "point_name_ja": "那覇"
+    },
+    {
+        "point_id": "91241",
+        "point_key": "itokazu",
+        "pref_key": "okinawa",
+        "point_name_ja": "糸数"
+    },
+    {
+        "point_id": "92011",
+        "point_key": "minami-daito",
+        "pref_key": "daitojima",
+        "point_name_ja": "南大東"
+    },
+    {
+        "point_id": "93041",
+        "point_key": "miyakojima",
+        "pref_key": "miyakojima",
+        "point_name_ja": "宮古島"
+    },
+    {
+        "point_id": "94001",
+        "point_key": "ibaruma",
+        "pref_key": "yaeyama",
+        "point_name_ja": "伊原間"
+    },
+    {
+        "point_id": "94017",
+        "point_key": "yonagunijima",
+        "pref_key": "yaeyama",
+        "point_name_ja": "与那国島"
+    },
+    {
+        "point_id": "94062",
+        "point_key": "iriomotejima",
+        "pref_key": "yaeyama",
+        "point_name_ja": "西表島"
+    },
+    {
+        "point_id": "94081",
+        "point_key": "ishigakijima",
+        "pref_key": "yaeyama",
+        "point_name_ja": "石垣島"
+    },
+    {
+        "point_id": "94101",
+        "point_key": "ohara",
+        "pref_key": "yaeyama",
+        "point_name_ja": "大原"
+    },
+    {
+        "point_id": "94116",
+        "point_key": "hateruma",
+        "pref_key": "yaeyama",
+        "point_name_ja": "波照間"
+    }
+]

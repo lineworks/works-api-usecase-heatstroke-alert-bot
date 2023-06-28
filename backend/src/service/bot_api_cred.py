@@ -1,0 +1,4 @@
+
+
+class BotApiCredentialService:
+    pass

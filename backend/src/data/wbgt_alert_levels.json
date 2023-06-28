@@ -1,0 +1,79 @@
+[
+    {
+        "alert_level_key": "nosend",
+        "min_value": 999999,
+        "max_value": 999999,
+        "priority": 200,
+        "alert_level_title_ja": "配信しない",
+        "alert_level_subtitle_ja": "",
+        "alert_level_description_ja": "",
+        "alert_level_background_color": "#ff0000",
+        "alert_level_text_color": "#ffffff"
+    },
+    {
+        "alert_level_key": "heat_stroke_alert",
+        "min_value": 33,
+        "max_value": 999999,
+        "priority": 100,
+        "alert_level_title_ja": "熱中症警戒アラート",
+        "alert_level_subtitle_ja": "暑さ指数33以上",
+        "alert_level_description_ja": "熱中症の危険性が極めて高くなると予想されるため、予防対策を普段以上に徹底することが重要です。",
+        "alert_level_background_color": "#ff0000",
+        "alert_level_text_color": "#ffffff"
+    },
+    {
+        "alert_level_key": "danger",
+        "min_value": 31,
+        "max_value": 33,
+        "priority": 90,
+        "alert_level_title_ja": "危険",
+        "alert_level_subtitle_ja": "暑さ指数31以上",
+        "alert_level_description_ja": "すべての生活活動でおこる危険性",
+        "alert_level_background_color": "#ff0000",
+        "alert_level_text_color": "#ffffff"
+    },
+    {
+        "alert_level_key": "severe_warning",
+        "min_value": 28,
+        "max_value": 30,
+        "priority": 80,
+        "alert_level_title_ja": "厳重警戒",
+        "alert_level_subtitle_ja": "暑さ指数28以上",
+        "alert_level_description_ja": "すべての生活活動でおこる危険性",
+        "alert_level_background_color": "#ffa500",
+        "alert_level_text_color": "#ffffff"
+    },
+    {
+        "alert_level_key": "warning",
+        "min_value": 25,
+        "max_value": 27,
+        "priority": 70,
+        "alert_level_title_ja": "警戒",
+        "alert_level_subtitle_ja": "暑さ指数25以上",
+        "alert_level_description_ja": "中等度以上の生活活動でおこる危険性",
+        "alert_level_background_color": "ffd700",
+        "alert_level_text_color": "#000000"
+    },
+    {
+        "alert_level_key": "caution",
+        "min_value": 21,
+        "max_value": 24,
+        "priority": 60,
+        "alert_level_title_ja": "注意",
+        "alert_level_subtitle_ja": "暑さ指数21以上",
+        "alert_level_description_ja": "強い生活活動でおこる危険性",
+        "alert_level_background_color": "#87cefa",
+        "alert_level_text_color": "#ffffff"
+    },
+    {
+        "alert_level_key": "almost_safe",
+        "min_value": 0,
+        "max_value": 21,
+        "priority": 0,
+        "alert_level_title_ja": "ほぼ安全",
+        "alert_level_subtitle_ja": "暑さ指数21未満",
+        "alert_level_description_ja": "ほぼ安全",
+        "alert_level_background_color": "#f5f5f5",
+        "alert_level_text_color": "#ffffff"
+    }
+]

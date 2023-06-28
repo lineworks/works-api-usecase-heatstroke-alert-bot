@@ -1,0 +1,12 @@
+version: "3.0"
+
+services:
+  workspace:
+    build: .
+    tty: true
+    volumes:
+      - ~/.aws/:/root/.aws:ro
+      - .:/app
+    ports:
+      - "9000:9000"
+    command: /bin/bash -c "bash"

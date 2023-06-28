@@ -1,0 +1,237 @@
+service: wbgt-alert-lw-app
+frameworkVersion: "^3"
+
+
+params:
+  default:
+    prefix: ${param:author}-${sls:stage}-${self:service}
+    table_bot_info: ${param:prefix}-bot-info
+    table_bot_client_cred: ${param:prefix}-bot-client-creds
+    table_access_token: ${param:prefix}-access-tokens
+    table_installed_apps: ${param:prefix}-installed-apps
+    table_user_setting: ${param:prefix}-user-setting
+    table_wbgt: ${param:prefix}-wbgt
+    queue_notice_list: ${param:prefix}-notice-list
+    queue_notify_alert: ${param:prefix}-notify-alert
+
+custom:
+  pythonRequirements:
+    #dockerImage: public.ecr.aws/sam/build-python3.9:latest-arm64
+    #dockerizePip: true
+    useStaticCache: false
+    useDownloadCache: false
+
+package:
+  #individually: true
+  patterns:
+    - '!node_modules/**'
+    - '!venv/**'
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: ap-northeast-1
+  timeout: 29
+  memorySize: 256
+  stackName: ${param:prefix}
+  iamManagedPolicies:
+    - 'arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess'
+    - 'arn:aws:iam::aws:policy/AWSLambdaExecute'
+    - 'arn:aws:iam::aws:policy/AmazonSQSFullAccess'
+  environment:
+    Prefix: ${param:prefix}
+    Author: ${param:author}
+    Dep: ${param:dep}
+    Stage: ${sls:stage}
+    TABLE_BOT_INFO: ${param:table_bot_info}
+    TABLE_BOT_CLIENT_CRED: ${param:table_bot_client_cred}
+    TABLE_ACCESS_TOKEN: ${param:table_access_token}
+    TABLE_INSTALLED_APPS: ${param:table_installed_apps}
+    TABLE_USER_SETTING: ${param:table_user_setting}
+    TABLE_WBGT: ${param:table_wbgt}
+    QUEUE_NOTICE_LIST: ${param:queue_notice_list}
+    QUEUE_NOTIFY_ALERT: ${param:queue_notify_alert}
+    LW_BOT_ID: ${param:bot_id}
+  architecture: arm64
+
+
+functions:
+  importer:
+    name: ${param:prefix}-importer
+    handler: src.importer_lambda_handler.lambda_handler
+    timeout: 600
+    layers:
+      - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
+    events:
+      - schedule: cron(40 8 * * ? *)
+      - schedule: cron(40 20 * * ? *)
+
+  user_set_list:
+    name: ${param:prefix}-user-set-list
+    handler: src.user_set_list_lambda_handler.lambda_handler
+    timeout: 600
+    layers:
+      - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
+    events:
+      - schedule: cron(0 9 * * ? *)
+      - schedule: cron(0 22 * * ? *)
+
+  notice_list:
+    name: ${param:prefix}-notice-list
+    handler: src.notice_list_lambda_handler.lambda_handler
+    timeout: 120
+    layers:
+      - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
+    events:
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - NoticeListQueue
+              - Arn
+          batchSize: 10
+          maximumBatchingWindow: 60
+
+  notify_alert:
+    name: ${param:prefix}-notify-alert
+    handler: src.notify_alert_lambda_handler.lambda_handler
+    timeout: 120
+    layers:
+      - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
+    events:
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - NotifyAlertQueue
+              - Arn
+          batchSize: 10
+          maximumBatchingWindow: 60
+
+  user_setting_api:
+    name: ${param:prefix}-user-setting-api
+    handler: src.user_setting_api_lambda_handler.lambda_handler
+    timeout: 120
+    layers:
+      - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
+    url:
+      cors: true
+
+  lw_callback:
+    name: ${param:prefix}-lw-callback
+    handler: src.lw_callback_lambda_handler.lambda_handler
+    timeout: 120
+    layers:
+      - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
+    url:
+      cors: false
+
+
+resources:
+  Resources:
+    LWBotInfoTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:table_bot_info}
+        AttributeDefinitions:
+          - AttributeName: bot_id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: bot_id
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
+
+    LWBotClientCredTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:table_bot_client_cred}
+        AttributeDefinitions:
+          - AttributeName: bot_id
+            AttributeType: S
+          - AttributeName: domain_id
+            AttributeType: S
+          - AttributeName: client_id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: bot_id
+            KeyType: HASH
+          - AttributeName: domain_id
+            KeyType: RANGE
+        BillingMode: PAY_PER_REQUEST
+        GlobalSecondaryIndexes:
+          -
+            IndexName: ClientID
+            KeySchema:
+              -
+                AttributeName: client_id
+                KeyType: HASH
+            Projection:
+              ProjectionType: ALL
+
+    LWAccessTokenTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:table_access_token}
+        AttributeDefinitions:
+          - AttributeName: domain_id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: domain_id
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
+
+    LWInstalledAppTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:table_installed_apps}
+        AttributeDefinitions:
+          - AttributeName: client_id
+            AttributeType: S
+          - AttributeName: domain_id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: client_id
+            KeyType: HASH
+          - AttributeName: domain_id
+            KeyType: RANGE
+        BillingMode: PAY_PER_REQUEST
+
+    UserSettingTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:table_user_setting}
+        AttributeDefinitions:
+          - AttributeName: user_id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: user_id
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
+
+    WBGTTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${param:table_wbgt}
+        AttributeDefinitions:
+          - AttributeName: wbgt_key
+            AttributeType: S
+        KeySchema:
+          - AttributeName: wbgt_key
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
+
+    NoticeListQueue:
+       Type: "AWS::SQS::Queue"
+       Properties:
+         QueueName:  ${param:queue_notice_list}
+         MessageRetentionPeriod: 300
+         VisibilityTimeout: 120
+
+    NotifyAlertQueue:
+       Type: "AWS::SQS::Queue"
+       Properties:
+         QueueName:  ${param:queue_notify_alert}
+         MessageRetentionPeriod: 300
+         VisibilityTimeout: 120
+
+
+plugins:
+  - serverless-python-requirements
