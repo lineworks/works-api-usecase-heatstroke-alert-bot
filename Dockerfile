@@ -22,5 +22,11 @@ RUN npm install -g serverless
 WORKDIR /app
 COPY . .
 
+WORKDIR /app/backend
 RUN pip install -r requirements.txt
 RUN npm install
+
+WORKDIR /app/frontend
+RUN npm install
+
+WORKDIR /app

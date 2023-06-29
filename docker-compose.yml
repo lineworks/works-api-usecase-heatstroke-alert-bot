@@ -9,4 +9,6 @@ services:
       - .:/app
     ports:
       - "9000:9000"
+    environment:
+      - 'PS1=[\u@\h \W] \$$ '
     command: /bin/bash -c "bash"
