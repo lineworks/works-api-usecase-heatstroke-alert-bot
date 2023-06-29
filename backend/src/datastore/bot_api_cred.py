@@ -151,6 +151,10 @@ class BaseAccessTokenRepository(BaseClass):
     def put_access_token_item(self, access_token: AccessToken):
         pass
 
+    @abstractmethod
+    def delete_access_token_item(self, domain_id: str):
+        pass
+
 
 class InMemoryAccessTokenRepository(BaseAccessTokenRepository):
     def __init__(self):
@@ -161,6 +165,9 @@ class InMemoryAccessTokenRepository(BaseAccessTokenRepository):
 
     def put_access_token_item(self, access_token: AccessToken):
         self.access_tokens[access_token.domain_id] = access_token
+
+    def delete_access_token_item(self, domain_id: str):
+        del self.access_tokens[domain_id]
 
 
 class DynamoDBAccessTokenRepository(BaseAccessTokenRepository):
@@ -182,3 +189,7 @@ class DynamoDBAccessTokenRepository(BaseAccessTokenRepository):
     def put_access_token_item(self, access_token: AccessToken):
         dynamodb.put_item(self.table_name, access_token.dict())
         self.in_memory_repo.put_access_token_item(access_token)
+
+    def delete_access_token_item(self, domain_id: str):
+        dynamodb.delete_item(self.table_name, {"domain_id": domain_id})
+        self.in_memory_repo.delete_access_token_item(domain_id)

@@ -18,6 +18,7 @@ from .models import (
     NoticeContent,
     AccessToken,
     BotClientCredential,
+    InstalledApp,
 )
 from .datastore.bot_api_cred import (
     DynamoDBBotInfoRepository,
@@ -29,7 +30,6 @@ from .lib import lineworks
 
 logger = Logger()
 
-cors_config = CORSConfig()
 app = LambdaFunctionUrlResolver()
 
 
@@ -50,10 +50,8 @@ https://www.wbgt.env.go.jp/sp/
 
 @app.post("/bot-callback")
 def post_bot_callback():
-    logger.info(app.current_event.headers)
     logger.info(app.current_event.body)
-    logger.info(app.current_event.decoded_body)
-    logger.info(app.current_event.query_string_parameters)
+    logger.info(app.current_event.headers)
 
     body: dict = app.current_event.json_body
     body_raw = app.current_event.body
@@ -157,6 +155,74 @@ def post_bot_callback():
     except Exception as e:
         logger.exception(e)
         raise
+
+
+@app.post("/install-update")
+def eco_install_or_update_callback_handler():
+    logger.info(app.current_event.body)
+    logger.info(app.current_event.headers)
+
+    headers = app.current_event.headers
+
+    installed_app_table_name = os.environ.get("TABLE_INSTALLED_APPS")
+    if installed_app_table_name is None:
+        raise Exception("Please set TABLE_INSTALLED_APPS env")
+
+    bot_id = os.environ.get("LW_BOT_ID")
+    if bot_id is None:
+        raise Exception("Please set LW_BOT_ID env")
+
+    install_app_repo = DynamoDBInstalledAppRepository(installed_app_table_name)
+
+    client_id = headers["client-id"]
+    domain_id = headers["works-domain-id"]
+    company_name = headers["works-company-name"]
+    install_user = headers["works-install-user-id"]
+    service_account = headers["works-install-service-account-id"]
+    ver = headers["ver"]
+
+    installed_app_obj = InstalledApp(
+        client_id=client_id,
+        domain_id=domain_id,
+        service_account=service_account,
+        ver=ver,
+    )
+    install_app_repo.put_installed_app(installed_app_obj)
+
+    return
+
+
+@app.post("/uninstall")
+def eco_uninstall_callback_handler():
+    logger.info(app.current_event.body)
+    logger.info(app.current_event.headers)
+
+    headers = app.current_event.headers
+
+    installed_app_table_name = os.environ.get("TABLE_INSTALLED_APPS")
+    if installed_app_table_name is None:
+        raise Exception("Please set TABLE_INSTALLED_APPS env")
+
+    access_token_table_name = os.environ.get("TABLE_ACCESS_TOKEN")
+    if access_token_table_name is None:
+        raise Exception("Please set TABLE_ACCESS_TOKEN env")
+
+    bot_id = os.environ.get("LW_BOT_ID")
+    if bot_id is None:
+        raise Exception("Please set LW_BOT_ID env")
+
+    install_app_repo = DynamoDBInstalledAppRepository(installed_app_table_name)
+    access_token_repo = DynamoDBAccessTokenRepository(access_token_table_name)
+
+    client_id = headers["client-id"]
+    domain_id = headers["works-domain-id"]
+
+    # delete innstall app
+    install_app_repo.delete_installed_app(client_id, domain_id)
+
+    # delete access token
+    access_token_repo.delete_access_token_item(domain_id)
+
 
 # You can continue to use other utilities just as before
 @logger.inject_lambda_context(correlation_id_path=correlation_paths.LAMBDA_FUNCTION_URL)
