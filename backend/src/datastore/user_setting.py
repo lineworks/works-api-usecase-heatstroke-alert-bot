@@ -20,6 +20,10 @@ class BaseUserSettingRepository(BaseClass):
     def put_user_setting(self, user_setting: UserSetting):
         pass
 
+    @abstractmethod
+    def delete_user_setting_w_domain_id(self, domain_id):
+        pass
+
 
 class InMemoryUserSettingRepository(BaseUserSettingRepository):
     def __init__(self, data: List[Dict]):
@@ -35,6 +39,12 @@ class InMemoryUserSettingRepository(BaseUserSettingRepository):
 
     def put_user_setting(self, user_setting: UserSetting):
         self.user_settings[user_setting.user_id] = UserSetting.parse_obj(user_setting)
+
+    def delete_user_setting_w_domain_id(self, domain_id):
+        for k in self.user_settings.keys():
+            if self.user_settings[k].domain_id == domain_id:
+                del self.user_settings[k]
+
 
 class DynamoDBUserSettingRepository(BaseUserSettingRepository):
     def __init__(self, table_name: str):
@@ -55,3 +65,13 @@ class DynamoDBUserSettingRepository(BaseUserSettingRepository):
 
     def put_user_setting(self, user_setting: UserSetting):
         dynamodb.put_item(self.table_name, user_setting.dict())
+
+    def delete_user_setting_w_domain_id(self, domain_id):
+        user_settings_raw = dynamodb.query(self.table_name, {"domain_id": domain_id}, "DomainId")
+        keys = []
+        for user_setting_raw in user_settings_raw:
+            if user_setting_raw is not None:
+                user_setting = UserSetting.parse_obj(user_setting_raw)
+                keys.append({"user_id": user_setting.user_id})
+        # delete
+        dynamodb.delete_items(self.table_name, keys)

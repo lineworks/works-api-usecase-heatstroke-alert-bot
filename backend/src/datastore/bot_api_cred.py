@@ -87,7 +87,7 @@ class DynamoDBBotClientCredentialRepository(BaseBotClientCredentialRepository):
 # InstalledApp
 class BaseInstalledAppRepository(BaseClass):
     @abstractmethod
-    def get_installed_app(self, client_id: str, domain_id: str) -> Optional[InstalledApp]:
+    def get_installed_app(self, domain_id: str) -> Optional[InstalledApp]:
         pass
 
     @abstractmethod
@@ -95,7 +95,7 @@ class BaseInstalledAppRepository(BaseClass):
         pass
 
     @abstractmethod
-    def delete_installed_app(self, client_id: str, domain_id: str):
+    def delete_installed_app(self, domain_id: str):
         pass
 
 
@@ -103,17 +103,14 @@ class InMemoryInstalledAppRepository(BaseInstalledAppRepository):
     def __init__(self):
         self.installed_apps = {}
 
-    def get_installed_app(self, client_id: str, domain_id: str) -> Optional[InstalledApp]:
-        return self.installed_apps[client_id].get(domain_id) if self.installed_apps.get(client_id) else None
+    def get_installed_app(self, domain_id: str) -> Optional[InstalledApp]:
+        return self.installed_apps.get(domain_id)
 
     def put_installed_app(self, installed_app_obj: InstalledApp):
-        if self.installed_apps.get(installed_app_obj.client_id) is None:
-            self.installed_apps[installed_app_obj.client_id] = {}
-        self.installed_apps[installed_app_obj.client_id][installed_app_obj.domain_id] = installed_app_obj
+        self.installed_apps[installed_app_obj.domain_id] = installed_app_obj
 
-    def delete_installed_app(self, client_id: str, domain_id: str):
-        if self.installed_apps.get(client_id) is not None:
-            del self.installed_apps[client_id][domain_id]
+    def delete_installed_app(self, domain_id: str):
+            del self.installed_apps[domain_id]
 
 
 class DynamoDBInstalledAppRepository(BaseInstalledAppRepository):
@@ -121,12 +118,12 @@ class DynamoDBInstalledAppRepository(BaseInstalledAppRepository):
         self.table_name = table_name
         self.in_memory_repo = InMemoryInstalledAppRepository()
 
-    def get_installed_app(self, client_id: str, domain_id: str) -> Optional[InstalledApp]:
-        cache = self.in_memory_repo.get_installed_app(client_id, domain_id)
+    def get_installed_app(self, domain_id: str) -> Optional[InstalledApp]:
+        cache = self.in_memory_repo.get_installed_app(domain_id)
         if cache is not None:
             return cache
 
-        _raw = dynamodb.get_item(self.table_name, {"client_id": client_id, "domain_id": domain_id})
+        _raw = dynamodb.get_item(self.table_name, {"domain_id": domain_id})
         if _raw is None:
             return None
         _item = InstalledApp.parse_obj(_raw)
@@ -137,8 +134,8 @@ class DynamoDBInstalledAppRepository(BaseInstalledAppRepository):
         dynamodb.put_item(self.table_name, installed_app_obj.dict())
         self.in_memory_repo.put_installed_app(installed_app_obj)
 
-    def delete_installed_app(self, client_id: str, domain_id: str):
-        dynamodb.delete_item(self.table_name, {"client_id": client_id, "domain_id": domain_id})
+    def delete_installed_app(self, domain_id: str):
+        dynamodb.delete_item(self.table_name, {"domain_id": domain_id})
 
 
 # AccessToken

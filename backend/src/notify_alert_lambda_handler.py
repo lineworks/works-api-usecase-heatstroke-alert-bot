@@ -56,7 +56,9 @@ NOTIFY_TEXT_POINT_INFO_FMT = """
 """
 
 def notify(notice_content_raw: str):
+    logger.info(notice_content_raw)
     current_time = datetime.now().timestamp()
+    logger.info(current_time)
 
     access_token_table_name = os.environ.get("TABLE_ACCESS_TOKEN")
     if access_token_table_name is None:
@@ -84,6 +86,8 @@ def notify(notice_content_raw: str):
     access_token_repo = DynamoDBAccessTokenRepository(access_token_table_name)
 
     notice_content = NoticeContent.parse_raw(notice_content_raw)
+    logger.info(notice_content)
+    logger.info("UserID: {}".format(notice_content.user_setting.user_id))
 
     # Get bot info
     bot_info = bot_info_repo.get_bot_info(bot_id)
@@ -205,6 +209,7 @@ def notify(notice_content_raw: str):
             }
         }
     ]
+    logger.info(msg_contents)
 
     # Get access token
     access_token_obj = access_token_repo.get_access_token_item(notice_content.user_setting.domain_id)
@@ -217,7 +222,7 @@ def notify(notice_content_raw: str):
             return
 
         # Eco app
-        installed_app = install_app_repo.get_installed_app(client_cred.client_id, notice_content.user_setting.domain_id)
+        installed_app = install_app_repo.get_installed_app(notice_content.user_setting.domain_id)
         if installed_app is None:
             raise Exception("Installed App does not exist.")
         service_account = installed_app.service_account
@@ -256,5 +261,7 @@ def notify(notice_content_raw: str):
 @event_source(data_class=SQSEvent)
 def lambda_handler(event: SQSEvent, context: LambdaContext):
     logger.info(event)
+    logger.info(event.raw_event)
+    logger.info(len(event.raw_event["Records"]))
     for record in event.records:
         notify(record.body)

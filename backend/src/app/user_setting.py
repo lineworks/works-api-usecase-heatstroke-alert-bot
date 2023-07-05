@@ -31,7 +31,10 @@ class UserSettingApplication():
         return self.user_setting_repo.get_user_setting(user_id)
 
     def put_user_settings(self, user_setting: UserSetting):
-        return self.user_setting_repo.put_user_setting(user_setting)
+        self.user_setting_repo.put_user_setting(user_setting)
+
+    def delete_user_settings_w_domain_id(self, domain_id: str):
+        self.user_setting_repo.delete_user_setting_w_domain_id(domain_id)
 
     def classify_user_setting_into_prefecture(self) -> Dict[str, List[UserSetting]]:
         users_pref = {}

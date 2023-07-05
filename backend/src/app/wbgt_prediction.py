@@ -42,6 +42,8 @@ class WBGTPredictionApplication():
 
     def get_wbgt_points_of_prefecture(self, pref_key: str) -> List[WBGTPoint]:
         pref = self.wbgt_pref_point_repo.get_wbgt_pref_point(pref_key)
+        if pref is None:
+            return []
         point_list = []
         for wbgt_point_id in pref.points:
             point = self.wbgt_point_repo.get_wbgt_point(wbgt_point_id)

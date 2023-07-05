@@ -92,24 +92,33 @@ def notice_list(message: str):
 
     # daily prediction
     wbgt_pref = wbgt_pref_point_repo.get_wbgt_pref_point(notice_list.pref_key)
+    logger.info(wbgt_pref)
+    if wbgt_pref is None:
+        raise Exception("WBGT data is null.")
     wbgt_points = wbgt_pred_service.get_wbgt_points_of_prefecture(notice_list.pref_key)
+    logger.info(wbgt_points)
 
     alert_level_list = []
     point_and_wbgt_list = []
     for point in wbgt_points:
         logger.info(point)
         wbgt_list = wbgt_pred_service.predict_daily_wbgt_of_point(point, day)
+        logger.info(wbgt_list)
         max_wbgt = wbgt_pred_service.get_max_wbgt(wbgt_list)
         if max_wbgt is not None:
             alert_level = wbgt_pred_service.check_alert_level(max_wbgt)
             alert_level_list.append(alert_level)
-        point_and_wbgt_list.append(
-            NoticeContentPoint(
-                point=point,
-                max_wbgt=max_wbgt,
+            point_and_wbgt_list.append(
+                NoticeContentPoint(
+                    point=point,
+                    max_wbgt=max_wbgt,
+                )
             )
-        )
     logger.info(alert_level_list)
+    logger.info(point_and_wbgt_list)
+    if len(alert_level_list) == 0:
+        raise Exception("Alert level is None")
+
     max_alert_level = wbgt_pred_service.get_max_alert_level(alert_level_list)
 
     message_publisher = SQSMessagePublisher(queue_notify_alert_name)
@@ -131,5 +140,7 @@ def notice_list(message: str):
 @event_source(data_class=SQSEvent)
 def lambda_handler(event: SQSEvent, context: LambdaContext):
     logger.info(event)
+    logger.info(event.raw_event)
+    logger.info(len(event.raw_event["Records"]))
     for record in event.records:
         notice_list(record.body)

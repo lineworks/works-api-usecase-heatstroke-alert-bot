@@ -59,7 +59,7 @@ functions:
   importer:
     name: ${param:prefix}-importer
     handler: src.importer_lambda_handler.lambda_handler
-    timeout: 600
+    timeout: 900
     memorySize: 256
     layers:
       - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
@@ -70,7 +70,7 @@ functions:
   user_set_list:
     name: ${param:prefix}-user-set-list
     handler: src.user_set_list_lambda_handler.lambda_handler
-    timeout: 600
+    timeout: 900
     memorySize: 256
     layers:
       - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
@@ -91,8 +91,9 @@ functions:
             Fn::GetAtt:
               - NoticeListQueue
               - Arn
-          batchSize: 10
+          batchSize: 20
           maximumBatchingWindow: 60
+          maximumConcurrency: 10
 
   notify_alert:
     name: ${param:prefix}-notify-alert
@@ -107,8 +108,9 @@ functions:
             Fn::GetAtt:
               - NotifyAlertQueue
               - Arn
-          batchSize: 10
+          batchSize: 20
           maximumBatchingWindow: 60
+          maximumConcurrency: 10
 
   user_setting_api:
     name: ${param:prefix}-user-setting-api
@@ -189,15 +191,11 @@ resources:
       Properties:
         TableName: ${param:table_installed_apps}
         AttributeDefinitions:
-          - AttributeName: client_id
-            AttributeType: S
           - AttributeName: domain_id
             AttributeType: S
         KeySchema:
-          - AttributeName: client_id
-            KeyType: HASH
           - AttributeName: domain_id
-            KeyType: RANGE
+            KeyType: HASH
         BillingMode: PAY_PER_REQUEST
 
     UserSettingTable:
@@ -207,10 +205,21 @@ resources:
         AttributeDefinitions:
           - AttributeName: user_id
             AttributeType: S
+          - AttributeName: domain_id
+            AttributeType: S
         KeySchema:
           - AttributeName: user_id
             KeyType: HASH
         BillingMode: PAY_PER_REQUEST
+        GlobalSecondaryIndexes:
+          -
+            IndexName: DomainID
+            KeySchema:
+              -
+                AttributeName: domain_id
+                KeyType: HASH
+            Projection:
+              ProjectionType: ALL
 
     WBGTTable:
       Type: AWS::DynamoDB::Table
@@ -223,20 +232,23 @@ resources:
           - AttributeName: wbgt_key
             KeyType: HASH
         BillingMode: PAY_PER_REQUEST
+        TimeToLiveSpecification:
+          AttributeName: expired_at
+          Enabled: true
 
     NoticeListQueue:
        Type: "AWS::SQS::Queue"
        Properties:
          QueueName:  ${param:queue_notice_list}
-         MessageRetentionPeriod: 300
-         VisibilityTimeout: 120
+         MessageRetentionPeriod: 600
+         VisibilityTimeout: 180
 
     NotifyAlertQueue:
        Type: "AWS::SQS::Queue"
        Properties:
          QueueName:  ${param:queue_notify_alert}
-         MessageRetentionPeriod: 300
-         VisibilityTimeout: 120
+         MessageRetentionPeriod: 600
+         VisibilityTimeout: 180
 
 
 plugins:

@@ -51,7 +51,7 @@
         "alert_level_title_ja": "警戒",
         "alert_level_subtitle_ja": "暑さ指数25以上",
         "alert_level_description_ja": "中等度以上の生活活動でおこる危険性",
-        "alert_level_background_color": "ffd700",
+        "alert_level_background_color": "#ffd700",
         "alert_level_text_color": "#000000"
     },
     {

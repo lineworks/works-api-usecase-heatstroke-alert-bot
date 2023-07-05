@@ -111,21 +111,30 @@ class InMemoryWBGTRepository(BaseWBGTRepository):
         self.wbgt_list[wbgt.wbgt_key] = wbgt
 
 
+TREE_DAYS_PERIOD = 60 * 60 * 24 * 3
+
 class DynamoDBWBGTRepository(BaseWBGTRepository):
-    def __init__(self, table_name: str):
+    def __init__(self, table_name: str, ttl_attr_name: str = "expired_at", ttl_sec: int = TREE_DAYS_PERIOD):
         self.table_name = table_name
+        self.ttl_attr_name = ttl_attr_name
+        self.ttl_sec = ttl_sec
 
     def get_wbgt(self, wbgt_key: str) -> Optional[WBGT]:
         wbgt_raw = dynamodb.get_item(self.table_name, {"wbgt_key": wbgt_key})
         if wbgt_raw is not None:
+            if self.ttl_attr_name in wbgt_raw:
+                # remove ttl attr
+                del wbgt_raw[self.ttl_attr_name]
             return WBGT.parse_obj(wbgt_raw)
 
     def put_wbgt_list(self, wbgt_list: List[WBGT]):
         items = []
         for w in wbgt_list:
-            items.append(w.dict())
-        dynamodb.write_batch(self.table_name, items)
+            # set ttl
+            i = w.dict()
+            i[self.ttl_attr_name] = w.updated_timestamp + self.ttl_sec
+            items.append(i)
+        dynamodb.put_items(self.table_name, items)
 
     def put_wbgt(self, wbgt: WBGT):
         dynamodb.put_item(self.table_name, wbgt.dict())
-

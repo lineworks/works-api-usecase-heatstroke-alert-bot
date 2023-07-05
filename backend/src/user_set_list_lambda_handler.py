@@ -27,6 +27,8 @@ from .models import NoticeList
 
 logger = Logger()
 
+QUEUE_BATCH_SIZE = 500
+
 
 def user_setting_list():
     table_name = os.environ.get("TABLE_USER_SETTING")
@@ -45,12 +47,24 @@ def user_setting_list():
     # send to SQS queue
     for key, user_settings in user_pref_list.items():
         logger.info("Prefecture: {}".format(key))
-        logger.info("User Settings: {}".format(user_settings))
-        notice_list = NoticeList(
-            pref_key=key,
-            user_settings=user_settings,
-        )
-        message_publisher.publish(notice_list.json())
+        logger.info("User Settings count: {}".format(len(user_settings)))
+
+        cnt = 0
+        while True:
+            items = user_settings[QUEUE_BATCH_SIZE * cnt:QUEUE_BATCH_SIZE * (cnt + 1)]
+            logger.info("Count: {}, Window: {}, Size: {}".format(cnt, QUEUE_BATCH_SIZE * cnt, len(items)))
+
+            notice_list = NoticeList(
+                pref_key=key,
+                user_settings=items,
+            )
+            logger.info(notice_list)
+            message_publisher.publish(notice_list.json())
+
+            cnt += 1
+            next_items = user_settings[QUEUE_BATCH_SIZE * (cnt * 1):QUEUE_BATCH_SIZE * (cnt + 2)]
+            if len(next_items) < 1:
+                break
 
 
 # You can continue to use other utilities just as before

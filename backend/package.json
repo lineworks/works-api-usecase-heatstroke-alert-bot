@@ -1,5 +1,5 @@
 {
-  "name": "wbgt-notification-lineworks-app",
+  "name": "works-api-use-case-heat-stroke-alert-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,5 @@
   "license": "ISC",
   "dependencies": {
     "serverless-python-requirements": "^6.0.0"
-  },
-  "devDependencies": {
-    "webpack": "^5.88.0",
-    "webpack-cli": "^5.1.4"
   }
 }

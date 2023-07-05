@@ -26,6 +26,13 @@ from .datastore.bot_api_cred import (
     DynamoDBInstalledAppRepository,
     DynamoDBAccessTokenRepository,
 )
+from .datastore.user_setting import (
+    DynamoDBUserSettingRepository,
+)
+from .app.user_setting import (
+    UserSettingApplication
+)
+
 from .lib import lineworks
 
 logger = Logger()
@@ -124,7 +131,7 @@ def post_bot_callback():
             return
 
         # Eco app
-        installed_app = install_app_repo.get_installed_app(client_cred.client_id, domain_id)
+        installed_app = install_app_repo.get_installed_app(domain_id)
         if installed_app is None:
             raise Exception("Installed App does not exist.")
         service_account = installed_app.service_account
@@ -151,7 +158,7 @@ def post_bot_callback():
         res = bot_api.send_message_to_user(msg_content,
                                            bot_info.bot_id,
                                            user_id)
-        return
+        return {}
     except Exception as e:
         logger.exception(e)
         raise
@@ -182,14 +189,13 @@ def eco_install_or_update_callback_handler():
     ver = headers["ver"]
 
     installed_app_obj = InstalledApp(
-        client_id=client_id,
         domain_id=domain_id,
         service_account=service_account,
         ver=ver,
     )
     install_app_repo.put_installed_app(installed_app_obj)
 
-    return
+    return {}
 
 
 @app.post("/uninstall")
@@ -207,21 +213,33 @@ def eco_uninstall_callback_handler():
     if access_token_table_name is None:
         raise Exception("Please set TABLE_ACCESS_TOKEN env")
 
+    user_setting_table_name = os.environ.get("TABLE_USER_SETTING")
+    if user_setting_table_name is None:
+        raise Exception("Please set TABLE_USER_SETTING env")
+
     bot_id = os.environ.get("LW_BOT_ID")
     if bot_id is None:
         raise Exception("Please set LW_BOT_ID env")
 
     install_app_repo = DynamoDBInstalledAppRepository(installed_app_table_name)
     access_token_repo = DynamoDBAccessTokenRepository(access_token_table_name)
+    user_setting_repo = DynamoDBUserSettingRepository(user_setting_table_name)
+
+    user_setting_app = UserSettingApplication(user_setting_repo)
 
     client_id = headers["client-id"]
     domain_id = headers["works-domain-id"]
 
     # delete innstall app
-    install_app_repo.delete_installed_app(client_id, domain_id)
+    install_app_repo.delete_installed_app(domain_id)
 
     # delete access token
     access_token_repo.delete_access_token_item(domain_id)
+
+    # delete user settings
+    user_setting_app.delete_user_settings_w_domain_id(domain_id)
+
+    return {}
 
 
 # You can continue to use other utilities just as before

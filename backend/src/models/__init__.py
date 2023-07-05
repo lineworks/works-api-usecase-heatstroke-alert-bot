@@ -27,7 +27,6 @@ class BotInfo(BaseModel):
 
 
 class InstalledApp(BaseModel):
-    client_id: str
     domain_id: str
     service_account: str
     ver: str
