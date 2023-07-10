@@ -47,6 +47,8 @@ NOTIFY_TEXT_GUIDE = """
 28以上31未満: 厳重警戒
 25以上28未満: 警戒
 25未満: 注意
+
+※ 配信の停止は「配信設定」から行います。
 """
 
 NOTIFY_TEXT_POINT_INFO_FMT = """
@@ -133,7 +135,8 @@ def notify(notice_content_raw: str):
                                         "type": "text",
                                         "style": "normal",
                                         "align": "center",
-                                        "size": "3xl",
+                                        "wrap": True,
+                                        "size": "xl",
                                         "gravity": "center",
                                         "color": "{}".format(notice_content.alert_level.alert_level_text_color)
                                     }

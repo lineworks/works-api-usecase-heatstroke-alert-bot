@@ -2,6 +2,7 @@ import requests
 import os
 import json
 import urllib.parse
+import time
 
 test_dir = os.path.dirname(__file__)
 TEST_USER_LIST_JSON_NAME = os.path.join(test_dir, "test_user_list.json")
@@ -31,4 +32,5 @@ for user in user_list:
 
     res = requests.put(urllib.parse.urljoin(user_setting_api_url,'/user_setting/{}'.format(user["userId"])), json=user_set)
     print(res.status_code)
+    time.sleep(0.2)
     cnt += 1

@@ -37,7 +37,8 @@ class WBGTPredictionApplication():
         wbgt_alert_levels = self.wbgt_alert_level_repo.get_wbgt_alert_levels()
         for alert_level in wbgt_alert_levels:
             if alert_level.min_value <= wbgt.value and alert_level.max_value >= wbgt.value:
-                rst = alert_level
+                if rst is None or alert_level.priority > rst.priority:
+                    rst = alert_level
         return rst
 
     def get_wbgt_points_of_prefecture(self, pref_key: str) -> List[WBGTPoint]:
@@ -108,7 +109,7 @@ class WBGTPredictionApplication():
 if __name__ == '__main__':
     import json
     import os
-    from datetime import datetime, timedelta
+    from datetime import datetime, timedelta, timezone
     from .import_wbgt import WBGTImporterApplication
     from ..datastore.wbgt import (
         InMemoryWBGTPointRepository,
@@ -117,8 +118,10 @@ if __name__ == '__main__':
         InMemoryWBGTRepository,
     )
 
-    day = datetime.now().date()
-    day += timedelta(days=1)
+    current_datetime = datetime.now(timezone(timedelta(hours=9)))
+    current_time = current_datetime.time()
+    day = current_datetime.date()
+    #day += timedelta(days=1)
 
     wbgt_points_json_file = os.path.join(os.path.dirname(__file__), '../data/wbgt_points.json')
     wbgt_pref_points_json_file = os.path.join(os.path.dirname(__file__), '../data/wbgt_pref.json')
@@ -148,7 +151,7 @@ if __name__ == '__main__':
 
     # daily prediction
     wbgt_pred_service = WBGTPredictionApplication(wbgt_point_repo, wbgt_pref_point_repo, wbgt_repo, wbgt_alert_level_repo, wbgt_svc)
-    wbgt_points = wbgt_pred_service.get_wbgt_points_of_prefecture("tokyo")
+    wbgt_points = wbgt_pred_service.get_wbgt_points_of_prefecture("osaka")
     alert_level_list = []
     for point in wbgt_points:
         print(point)

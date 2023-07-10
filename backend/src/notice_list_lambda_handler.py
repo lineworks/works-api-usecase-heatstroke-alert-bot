@@ -132,6 +132,7 @@ def notice_list(message: str):
                 prefecture=wbgt_pref,
                 user_setting=user_setting,
             )
+            logger.info(notice_content)
             message_publisher.publish(notice_content.json())
 
 
@@ -143,4 +144,5 @@ def lambda_handler(event: SQSEvent, context: LambdaContext):
     logger.info(event.raw_event)
     logger.info(len(event.raw_event["Records"]))
     for record in event.records:
+        logger.info("MessageID: {}".format(record.message_id))
         notice_list(record.body)

@@ -24,7 +24,7 @@
     {
         "alert_level_key": "danger",
         "min_value": 31,
-        "max_value": 33,
+        "max_value": 32,
         "priority": 90,
         "alert_level_title_ja": "危険",
         "alert_level_subtitle_ja": "暑さ指数31以上",

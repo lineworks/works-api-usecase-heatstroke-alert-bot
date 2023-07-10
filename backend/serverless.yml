@@ -21,7 +21,6 @@ custom:
     slim: true
 
 package:
-  #individually: true
   patterns:
     - '!node_modules/**'
     - '!venv/**'
@@ -81,7 +80,7 @@ functions:
   notice_list:
     name: ${param:prefix}-notice-list
     handler: src.notice_list_lambda_handler.lambda_handler
-    timeout: 120
+    timeout: 300
     memorySize: 256
     layers:
       - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
@@ -91,8 +90,7 @@ functions:
             Fn::GetAtt:
               - NoticeListQueue
               - Arn
-          batchSize: 20
-          maximumBatchingWindow: 60
+          batchSize: 1
           maximumConcurrency: 10
 
   notify_alert:
@@ -108,8 +106,8 @@ functions:
             Fn::GetAtt:
               - NotifyAlertQueue
               - Arn
-          batchSize: 20
-          maximumBatchingWindow: 60
+          batchSize: 10
+          maximumBatchingWindow: 10
           maximumConcurrency: 10
 
   user_setting_api:
@@ -125,8 +123,8 @@ functions:
   lw_callback:
     name: ${param:prefix}-lw-callback
     handler: src.lw_callback_lambda_handler.lambda_handler
-    timeout: 120
-    memorySize: 128
+    timeout: 900
+    memorySize: 256
     layers:
       - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
     url:
@@ -240,15 +238,15 @@ resources:
        Type: "AWS::SQS::Queue"
        Properties:
          QueueName:  ${param:queue_notice_list}
-         MessageRetentionPeriod: 600
-         VisibilityTimeout: 180
+         MessageRetentionPeriod: 1800
+         VisibilityTimeout: 900
 
     NotifyAlertQueue:
        Type: "AWS::SQS::Queue"
        Properties:
          QueueName:  ${param:queue_notify_alert}
-         MessageRetentionPeriod: 600
-         VisibilityTimeout: 180
+         MessageRetentionPeriod: 1800
+         VisibilityTimeout: 900
 
 
 plugins:

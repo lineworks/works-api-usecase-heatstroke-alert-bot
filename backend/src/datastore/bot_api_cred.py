@@ -110,6 +110,7 @@ class InMemoryInstalledAppRepository(BaseInstalledAppRepository):
         self.installed_apps[installed_app_obj.domain_id] = installed_app_obj
 
     def delete_installed_app(self, domain_id: str):
+        if domain_id in self.installed_apps:
             del self.installed_apps[domain_id]
 
 
@@ -164,7 +165,8 @@ class InMemoryAccessTokenRepository(BaseAccessTokenRepository):
         self.access_tokens[access_token.domain_id] = access_token
 
     def delete_access_token_item(self, domain_id: str):
-        del self.access_tokens[domain_id]
+        if domain_id in self.access_tokens:
+            del self.access_tokens[domain_id]
 
 
 class DynamoDBAccessTokenRepository(BaseAccessTokenRepository):

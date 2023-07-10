@@ -67,7 +67,7 @@ class DynamoDBUserSettingRepository(BaseUserSettingRepository):
         dynamodb.put_item(self.table_name, user_setting.dict())
 
     def delete_user_setting_w_domain_id(self, domain_id):
-        user_settings_raw = dynamodb.query(self.table_name, {"domain_id": domain_id}, "DomainId")
+        user_settings_raw = dynamodb.query(self.table_name, {"domain_id": domain_id}, "DomainID")
         keys = []
         for user_setting_raw in user_settings_raw:
             if user_setting_raw is not None:
