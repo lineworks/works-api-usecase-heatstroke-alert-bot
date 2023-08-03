@@ -61,7 +61,7 @@ High-level Architecture & database tables
 
 AWSのServerless servicesを利用した構成。
 
-![](docs/arch_highlevel.drawio.svg)
+![](docs/arch_aws.drawio.svg)
 
 ### Backend apps
 AWS Lambda + SQS を使った構成。
@@ -102,7 +102,7 @@ BotとWOFFを追加し、Bot ID と WOFF ID を取得する。
 ### Deploy Backend apps
 [Serverless Framework](https://www.serverless.com/) でデプロイする。
 
-[serverless.yaml](./backend/serverless.yml) にてAWS LambdaやSQS、DynamoDBテーブルが定義されている。
+[`serverless.yml`](./backend/serverless.yml) にてAWS LambdaやSQS、DynamoDBテーブルが定義されている。
 
 ```sh
 sh deploy_backend_aws.sh <bot id> <author> <stage> <aws profile>
