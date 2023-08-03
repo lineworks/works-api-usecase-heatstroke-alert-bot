@@ -1,0 +1,40 @@
+@startuml
+autoactivate on
+
+actor "Member" as Member
+
+box LINE WORKS #lightgreen
+    participant "Talk" as Talk #white
+end box
+
+box WebServer
+    participant "BotAppCallback" as WebChatbotServer #white
+end box
+
+box Datastore
+    database "Installed App" as DBInstalledApp
+    database "Bot Info" as DBBotInfo
+    database "Client Credential" as DBClientCred
+    database "Access Token" as DBAccessToken
+end box
+
+Member->Talk: Create talk room with bot
+Talk->WebChatbotServer: Message event
+WebChatbotServer->DBAccessToken
+return
+
+alt Access Token is empty or expired.
+    WebChatbotServer->DBBotInfo: Get Bot info
+    return
+    WebChatbotServer->DBClientCred: Get client credentials
+    return
+    WebChatbotServer->DBInstalledApp: Get installed app info
+    return
+    WebChatbotServer->WebChatbotServer: Generate Access Token
+    WebChatbotServer->DBAccessToken: Put Access Token
+    return
+    deactivate
+end
+return Send greeting message
+return
+@enduml

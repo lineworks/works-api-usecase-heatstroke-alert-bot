@@ -1,0 +1,47 @@
+@startuml
+autoactivate on
+
+actor "Admin user" as AdminUser
+
+box LINE WORKS #lightgreen
+    participant "Admin Console\nApp Directory" as AdminConsole #white
+end box
+
+box WebServer
+    participant "BotAppCallback" as WebEcoAppServer #white
+end box
+
+box Datastore
+    database "Installed App" as DBInstalledApp
+    database "Access Token" as DBAccessToken
+    database "UserSetting" as DBUserSetting
+end box
+
+== Install app ==
+AdminUser->AdminConsole: Add App to tenant
+AdminConsole->WebEcoAppServer: Install callback event
+WebEcoAppServer->DBInstalledApp: Put domain info
+return
+return
+return
+
+== Update app ==
+AdminUser->AdminConsole: Update App
+AdminConsole->WebEcoAppServer: Update callback event
+WebEcoAppServer->DBInstalledApp: Put domain info
+return
+return
+return
+
+== Delete app ==
+AdminUser->AdminConsole: Delete App
+AdminConsole->WebEcoAppServer: Delete callback event
+WebEcoAppServer->DBInstalledApp: Delete domain info
+return
+WebEcoAppServer->DBAccessToken: Delete Access Token
+return
+WebEcoAppServer->DBUserSetting: Delete all user settings in the domain
+return
+return
+return
+@enduml

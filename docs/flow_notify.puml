@@ -1,0 +1,89 @@
+@startuml
+autoactivate on
+
+actor "Member" as Member
+
+box LINE WORKS #lightgreen
+    participant "Talk" as Talk #white
+    participant "WOFF App" as WOFFApp #white
+end box
+
+box WebServer
+    participant "UserSetting API" as WebUserSettingAPI #white
+end box
+
+box BatchServer
+    participant "NotifyAlert" as BatchNotifyAlert #white
+    participant "ImportWBGTData" as BatchImportWBGT #white
+end box
+
+box Datastore
+    database "WBGT" as DBWBGT
+    database "UserSetting" as DBUserSetting
+    database "Installed App" as DBInstalledApp
+    database "Bot Info" as DBBotInfo
+    database "Client Credential" as DBClientCred
+    database "Access Token" as DBAccessToken
+end box
+
+participant "WBGT Data Server" as WBGTServer
+
+== Import WBGT data ==
+BatchImportWBGT->BatchImportWBGT: Start process (6am, 5pm)
+BatchImportWBGT->WBGTServer: Get WBGT prediction data (CSV files)
+return
+BatchImportWBGT->DBWBGT: Put data
+return
+deactivate
+
+== Configure user setting ==
+Member->WOFFApp: Open WOFF App
+WOFFApp->WebUserSettingAPI: Get current settings
+WebUserSettingAPI->DBUserSetting: Get user setting
+return
+return
+return Show current settings
+Member->WOFFApp: Update and submit settings
+WOFFApp->WebUserSettingAPI: Put updated settings
+WebUserSettingAPI->DBUserSetting: Put user setting
+return
+return
+return Close WOFF App
+
+== Notify ==
+BatchNotifyAlert->BatchNotifyAlert: Start process (7am, 6pm)
+BatchNotifyAlert->DBUserSetting: Get user settings
+return
+BatchNotifyAlert->BatchNotifyAlert: Classify user settings
+
+loop Check alert levels of each prefecture
+    BatchNotifyAlert->DBWBGT: Get WBGT data
+    return
+    BatchNotifyAlert->BatchNotifyAlert: Check the alert level
+    deactivate
+end
+
+deactivate
+
+loop Send alert message to all users.
+    BatchNotifyAlert->DBAccessToken: Get Access Token
+    return
+
+    alt Access Token is empty or expired.
+        BatchNotifyAlert->DBBotInfo: Get Bot info
+        return
+        BatchNotifyAlert->DBClientCred: Get client credentials
+        return
+        BatchNotifyAlert->DBInstalledApp: Get installed app info
+        return
+        BatchNotifyAlert->BatchNotifyAlert: Generate Access Token
+        BatchNotifyAlert->DBAccessToken: Put Access Token
+        return
+        deactivate
+    end
+    BatchNotifyAlert->Talk: Send message
+    return
+end
+
+deactivate
+@enduml
