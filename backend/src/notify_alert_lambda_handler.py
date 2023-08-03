@@ -254,9 +254,10 @@ def notify(notice_content_raw: str):
                                                bot_info.bot_id,
                                                notice_content.user_setting.user_id)
         return
-    except Exception as e:
+    except lineworks.base.BotApiRequestError as e:
         logger.exception(e)
-        raise
+        logger.error("{} {} headers: {} body:{}".format(e.request.method, e.request.url, e.request.headers, e.request.body))
+        logger.error("{} headers: {} body: {}".format(e.response.status_code, e.response.headers, e.response.text))
 
 
 # You can continue to use other utilities just as before
