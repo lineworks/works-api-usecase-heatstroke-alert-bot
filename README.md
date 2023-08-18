@@ -112,6 +112,8 @@ sh deploy_backend_aws.sh <bot id> <author> <stage> <aws profile>
 Build by [Webpack](https://webpack.js.org/) and upload to S3 bucket.
 
 ```sh
+export WOFF_ID=your-WOFFID
+export USER_SET_API_URL=your-user-setting-api-url
 sh deploy_frontend_aws.sh <stage> <backet_path> <aws profile>
 ```
 
@@ -138,12 +140,8 @@ Refer to https://developers.worksmobile.com/jp/docs/auth
 
 ----
 
+## Question / Issue / Requests
+Please post questions and discussions about the sample code to [Github Discussions](https://github.com/lineworks/works-api-usecase-heatstroke-alert-bot/discussions).
+
 ## License
 [Unlicense license](LICENSE)
-
-## Contribute
-1. Fork this repository
-2. Create a feature branch
-3. Commit your changes
-4. Rebase your local changes against the master branch
-5. Create a new Pull Request
