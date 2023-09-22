@@ -63,8 +63,10 @@ functions:
     layers:
       - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
     events:
-      - schedule: cron(40 8 * * ? *)
-      - schedule: cron(40 20 * * ? *)
+      - schedule: cron(40 8 * 7-9 ? 2023)
+      - schedule: cron(40 20 * 7-9 ? 2023)
+      - schedule: cron(40 8 1-24 10 ? 2023)
+      - schedule: cron(40 20 1-24 10 ? 2023)
 
   user_set_list:
     name: ${param:prefix}-user-set-list
@@ -74,8 +76,10 @@ functions:
     layers:
       - arn:aws:lambda:${aws:region}:017000801446:layer:AWSLambdaPowertoolsPythonV2-Arm64:35
     events:
-      - schedule: cron(0 9 * * ? *)
-      - schedule: cron(0 22 * * ? *)
+      - schedule: cron(0 9 * 7-9 ? 2023)
+      - schedule: cron(0 22 * 7-9 ? 2023)
+      - schedule: cron(0 9 1-24 10 ? 2023)
+      - schedule: cron(0 22 1-24 10 ? 2023)
 
   notice_list:
     name: ${param:prefix}-notice-list

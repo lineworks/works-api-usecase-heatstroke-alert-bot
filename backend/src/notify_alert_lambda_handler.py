@@ -57,6 +57,10 @@ NOTIFY_TEXT_POINT_INFO_FMT = """
 {}
 """
 
+NOTIFY_TEXT_ANNOUNCE = """
+今期の配信は 2023年10月25日 で終了します。
+"""
+
 def notify(notice_content_raw: str):
     logger.info(notice_content_raw)
     current_time = datetime.now().timestamp()
@@ -191,6 +195,12 @@ def notify(notice_content_raw: str):
                                     {
                                         "text": NOTIFY_TEXT_GUIDE,
                                         "wrap": True,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": NOTIFY_TEXT_ANNOUNCE,
+                                        "wrap": True,
+                                        "weight": "bold",
                                         "type": "text"
                                     }
                                 ],
