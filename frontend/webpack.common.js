@@ -23,6 +23,11 @@ module.exports = {
             templateParameters: {
             }
         }),
+        new HtmlWebpackPlugin({
+            filename: 'eos.html',
+            template: 'src/eos.ejs',
+            inject: false,
+        }),
         new webpack.EnvironmentPlugin({
           DEBUG: false,
           WOFF_ID: 'test id',

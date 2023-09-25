@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>配信終了 - 熱中症警戒アラート</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <% if (process.env.NODE_ENV !== 'production') { %>
+        <!-- VConsole -->
+        <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+        <script>
+            // VConsole will be exported to `window.VConsole` by default.
+            var vConsole = new window.VConsole();
+        </script>
+        <% } %>
+
+        <div class="container-fluid">
+
+            <div class="row p-1">
+                <div class="col">
+                    今期の配信は 2023年10月25日 で終了しました。<br>
+                    <br>
+                    次回の配信をお待ちください。
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
